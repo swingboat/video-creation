@@ -1,0 +1,123 @@
+{
+  "retrieved": "2026-11-04",
+  "originalRepository": "https://github.com/davidhckh/portfolio-2025",
+  "inspectedCommit": "f331fe16f507d52b60348fee73d56ab7ec330e56",
+  "license": "Personal and educational use only; see original-license.md",
+  "assets": [
+    {
+      "path": "public/upstream/models/avatar.glb",
+      "bytes": 616536,
+      "sha256": "f55b7e956fac48771f91e35bac7700e9f792281d5e2a76549098db8aa3ae1909"
+    },
+    {
+      "path": "public/upstream/models/contact.glb",
+      "bytes": 10580,
+      "sha256": "6d54323e77e78298315d324aed6fdd1465cb45455372f30f451ba3bbc154d3fe"
+    },
+    {
+      "path": "public/upstream/models/lab.glb",
+      "bytes": 11384,
+      "sha256": "3332f28aaf1940508823454775c945f8971f026cd1d8270d323e7aad138ba084"
+    },
+    {
+      "path": "public/upstream/models/room.glb",
+      "bytes": 289976,
+      "sha256": "0e2fb97538fdd727464bd537033b11ba1c687a0669a4fb590475f2728fbe7ce0"
+    },
+    {
+      "path": "public/upstream/textures/contact-shadow.webp",
+      "bytes": 2910,
+      "sha256": "0c6716228ef4b7ae75f38854541ffad4996c1ce2b20afbc24ec94067760af6d3"
+    },
+    {
+      "path": "public/upstream/textures/contact.webp",
+      "bytes": 111790,
+      "sha256": "8e20c9dd264180ab124ad6c7d23527088b93a98bd1fc7b8b34eed1fdf04c3002"
+    },
+    {
+      "path": "public/upstream/textures/desktops.webp",
+      "bytes": 5320,
+      "sha256": "ae114da7195da02b806d5f83dd26e8db1fee068141935a561f39e156613fe8de"
+    },
+    {
+      "path": "public/upstream/textures/face-spritesheet.png",
+      "bytes": 22465,
+      "sha256": "2cf3502e59b764d7d6a35cf78de44f4305a2507c7a6b4d7d1384572ffa9093b7"
+    },
+    {
+      "path": "public/upstream/textures/head.webp",
+      "bytes": 16854,
+      "sha256": "220f6c3719fbac64859014b7802be93afeb677b6733d3a58833240a63fd49bb7"
+    },
+    {
+      "path": "public/upstream/textures/matcap-black.webp",
+      "bytes": 4134,
+      "sha256": "e92fe6a6cc3e8e71193e999a5f2f8ed8a86d1bdd44f7c93b638ac726b64aa652"
+    },
+    {
+      "path": "public/upstream/textures/matcap-gray.webp",
+      "bytes": 5222,
+      "sha256": "35a2e41a52fc3e118cb733752162d58f367d4f1c7560d7a12d1adc5f0699bc89"
+    },
+    {
+      "path": "public/upstream/textures/matcap-skin.webp",
+      "bytes": 5596,
+      "sha256": "f94e028d063670d7e96f09dcd31c985684603ad85cc1bacd5486ea2b237bb8a4"
+    },
+    {
+      "path": "public/upstream/textures/matcap-white.webp",
+      "bytes": 3548,
+      "sha256": "85478ed0140628c30b805f9312e74b0bcfeed5c3ee003365e71a9389bcca5540"
+    },
+    {
+      "path": "public/upstream/textures/room-shadow.webp",
+      "bytes": 3050,
+      "sha256": "6e4ff264cf899f925f969b836a8016f25c1f8cd9fbf220aa65498a3f3bb20933"
+    },
+    {
+      "path": "public/upstream/textures/room.webp",
+      "bytes": 117996,
+      "sha256": "06fa1d201658ccce17d17f8bf129a149d59631545f85f22f234ef549199d322e"
+    },
+    {
+      "path": "public/upstream/thumbnails/cubewar.webp",
+      "bytes": 24190,
+      "sha256": "a5b5bc062c6b390c305c2e46bf511e9ef9314b02751914a26edb4b453691aa8a"
+    },
+    {
+      "path": "public/upstream/thumbnails/particles.webp",
+      "bytes": 19944,
+      "sha256": "c229677ab2735ba5fd90cd541d48bfb6313c0d5556218d98fc1fdc6350547f73"
+    },
+    {
+      "path": "public/upstream/thumbnails/quibbo.webp",
+      "bytes": 8934,
+      "sha256": "68a11220b01dfcd0de4afe4c1369c9a9d6bafa4c5a0375b91bbada4e2e2f23db"
+    },
+    {
+      "path": "public/upstream/thumbnails/sharkie.webp",
+      "bytes": 18870,
+      "sha256": "a725618f526bcbe1619f62d51fe13a23e526ede39d2b8570b58645e746360629"
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "bytes": 4385,
+      "sha256": "ee1221b1c2d08920e5f9ca764eb228dafa5c8090df9cf665373c2287b9cb8f49"
+    },
+    {
+      "path": "public/fonts/urbanist-400.woff2",
+      "bytes": 11984,
+      "sha256": "526bab743f8aeba2df182767150d7a354bf57b885f6ff2eab184cd27264b90aa"
+    },
+    {
+      "path": "public/fonts/urbanist-700.woff2",
+      "bytes": 12032,
+      "sha256": "ede48e359fb3f70d13b558e4bf8aea2697e3c86c267cfb4b360fe2d7a621df18"
+    },
+    {
+      "path": "public/fonts/urbanist-900.woff2",
+      "bytes": 11484,
+      "sha256": "f84b45b9ce8627a580387a0e886c93afe7306f1c66acac3fd6ef099daf9c4032"
+    }
+  ]
+}

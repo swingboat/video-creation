@@ -1,0 +1,897 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Buckets new" [ref=e36] [cursor=pointer]:
+              - /url: /storage
+              - img [ref=e37]
+              - text: Buckets
+              - generic [ref=e41]: new
+          - listitem [ref=e42]:
+            - link "Docs" [ref=e43] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e44]
+              - text: Docs
+          - listitem [ref=e48]:
+            - link "Pricing" [ref=e49] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e50]:
+            - generic [ref=e51]:
+              - button [ref=e52] [cursor=pointer]:
+                - img [ref=e53]
+              - navigation [ref=e58]:
+                - list [ref=e59]:
+                  - listitem [ref=e60]:
+                    - generic [ref=e61]: Website
+                    - list [ref=e62]:
+                      - listitem [ref=e63]:
+                        - link "Tasks" [ref=e64] [cursor=pointer]:
+                          - /url: /tasks
+                          - img [ref=e65]
+                          - generic: Tasks
+                      - listitem [ref=e68]:
+                        - link "HuggingChat" [ref=e69] [cursor=pointer]:
+                          - /url: /chat
+                          - img [ref=e70]
+                          - generic: HuggingChat
+                      - listitem [ref=e73]:
+                        - link "Collections" [ref=e74] [cursor=pointer]:
+                          - /url: /collections
+                          - img [ref=e75]
+                          - generic: Collections
+                      - listitem [ref=e79]:
+                        - link "Languages" [ref=e80] [cursor=pointer]:
+                          - /url: /languages
+                          - img [ref=e81]
+                          - generic: Languages
+                      - listitem [ref=e83]:
+                        - link "Organizations" [ref=e84] [cursor=pointer]:
+                          - /url: /organizations
+                          - img [ref=e85]
+                          - generic: Organizations
+                  - listitem [ref=e90]:
+                    - generic [ref=e91]: Community
+                    - list [ref=e92]:
+                      - listitem [ref=e93]:
+                        - link "Blog" [ref=e94] [cursor=pointer]:
+                          - /url: /blog
+                          - img [ref=e95]
+                          - generic: Blog
+                      - listitem [ref=e97]:
+                        - link "Posts" [ref=e98] [cursor=pointer]:
+                          - /url: /posts
+                          - img [ref=e99]
+                          - generic: Posts
+                      - listitem [ref=e101]:
+                        - link "Daily Papers" [ref=e102] [cursor=pointer]:
+                          - /url: /papers
+                          - img [ref=e103]
+                          - generic: Daily Papers
+                      - listitem [ref=e106]:
+                        - link "Hardware" [ref=e107] [cursor=pointer]:
+                          - /url: /hardware
+                          - img [ref=e108]
+                          - generic: Hardware
+                      - listitem [ref=e111]:
+                        - link "Learn" [ref=e112] [cursor=pointer]:
+                          - /url: /learn
+                          - img [ref=e113]
+                          - generic: Learn
+                      - listitem [ref=e119]:
+                        - link "Discord" [ref=e120] [cursor=pointer]:
+                          - /url: /join/discord
+                          - img [ref=e121]
+                          - generic: Discord
+                      - listitem [ref=e123]:
+                        - link "Forum" [ref=e124] [cursor=pointer]:
+                          - /url: https://discuss.huggingface.co/
+                          - img [ref=e125]
+                          - generic: Forum
+                      - listitem [ref=e127]:
+                        - link "GitHub" [ref=e128] [cursor=pointer]:
+                          - /url: https://github.com/huggingface
+                          - img [ref=e129]
+                          - generic: GitHub
+                  - listitem [ref=e131]:
+                    - generic [ref=e132]: Solutions
+                    - list [ref=e133]:
+                      - listitem [ref=e134]:
+                        - link "Team & Enterprise" [ref=e135] [cursor=pointer]:
+                          - /url: /enterprise
+                          - img [ref=e136]
+                          - generic: Team & Enterprise
+                      - listitem [ref=e138]:
+                        - link "Hugging Face PRO" [ref=e139] [cursor=pointer]:
+                          - /url: /pro
+                          - img [ref=e140]
+                          - generic: Hugging Face PRO
+                      - listitem [ref=e142]:
+                        - link "Enterprise Support" [ref=e143] [cursor=pointer]:
+                          - /url: /support
+                          - img [ref=e144]
+                          - generic: Enterprise Support
+                      - listitem [ref=e147]:
+                        - link "Inference Providers" [ref=e148] [cursor=pointer]:
+                          - /url: /inference/models
+                          - img [ref=e149]
+                          - generic: Inference Providers
+                      - listitem [ref=e152]:
+                        - link "Inference Endpoints" [ref=e153] [cursor=pointer]:
+                          - /url: /inference-endpoints
+                          - img [ref=e154]
+                          - generic: Inference Endpoints
+                      - listitem [ref=e157]:
+                        - link "Storage Buckets" [ref=e158] [cursor=pointer]:
+                          - /url: /storage
+                          - img [ref=e159]
+                          - generic: Storage Buckets
+          - listitem [ref=e163]:
+            - separator [ref=e164]
+          - listitem [ref=e165]:
+            - link "Log In" [ref=e166] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e167]:
+            - link "Sign Up" [ref=e168] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e169]:
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - link "Spaces" [ref=e173] [cursor=pointer]:
+          - /url: /spaces
+          - img [ref=e174]
+          - heading "Spaces" [level=1] [ref=e180]
+        - generic [ref=e181]: ·
+        - paragraph [ref=e182]: The AI App Directory
+      - generic [ref=e183]:
+        - link "New Space" [ref=e184] [cursor=pointer]:
+          - /url: /new-space
+          - img [ref=e185]
+          - text: New Space
+        - link "Get PRO" [ref=e187] [cursor=pointer]:
+          - /url: /pro
+          - img [ref=e188]
+          - text: Get PRO
+        - link "Learn more" [ref=e190] [cursor=pointer]:
+          - /url: /spaces/launch
+          - img [ref=e191]
+          - text: Learn more
+    - generic [ref=e195]:
+      - generic [ref=e197]:
+        - img [ref=e198]
+        - searchbox "Ask anything you want to do with AI" [ref=e202]
+        - button [ref=e203] [cursor=pointer]:
+          - img [ref=e204]
+        - button "Roll dice" [ref=e206] [cursor=pointer]
+      - generic [ref=e216]:
+        - generic [ref=e217]:
+          - generic [ref=e219] [cursor=pointer]:
+            - img [ref=e220]
+            - generic [ref=e225]:
+              - text: Reachy
+              - generic [ref=e226]: new
+          - generic [ref=e228] [cursor=pointer]:
+            - img [ref=e229]
+            - generic [ref=e232]: Image Generation
+          - generic [ref=e234] [cursor=pointer]:
+            - img [ref=e235]
+            - generic [ref=e238]: Video Generation
+          - generic [ref=e240] [cursor=pointer]:
+            - img [ref=e241]
+            - generic [ref=e244]: Text Generation
+          - generic [ref=e246] [cursor=pointer]:
+            - img [ref=e247]
+            - generic [ref=e252]: Language Translation
+          - generic [ref=e254] [cursor=pointer]:
+            - img [ref=e255]
+            - generic [ref=e258]: Speech Synthesis
+          - generic [ref=e260] [cursor=pointer]:
+            - img [ref=e261]
+            - generic [ref=e265]: 3D Modeling
+          - generic [ref=e267] [cursor=pointer]:
+            - img [ref=e268]
+            - generic [ref=e272]: Music Generation
+          - generic [ref=e274] [cursor=pointer]:
+            - img [ref=e275]
+            - generic [ref=e279]: Object Detection
+          - generic [ref=e281] [cursor=pointer]:
+            - img [ref=e282]
+            - generic [ref=e285]: Text Analysis
+          - generic [ref=e287] [cursor=pointer]:
+            - img [ref=e288]
+            - generic [ref=e291]: Image Editing
+          - generic [ref=e293] [cursor=pointer]:
+            - img [ref=e294]
+            - generic [ref=e298]: Code Generation
+          - generic [ref=e300] [cursor=pointer]:
+            - img [ref=e301]
+            - generic [ref=e305]: Question Answering
+          - generic [ref=e307] [cursor=pointer]:
+            - img [ref=e308]
+            - generic [ref=e311]: Data Visualization
+          - generic [ref=e313] [cursor=pointer]:
+            - img [ref=e314]
+            - generic [ref=e319]: Voice Cloning
+          - generic [ref=e321] [cursor=pointer]:
+            - img [ref=e322]
+            - generic [ref=e326]: Background Removal
+          - generic [ref=e328] [cursor=pointer]:
+            - img [ref=e329]
+            - generic [ref=e333]: Image Upscaling
+          - generic [ref=e335] [cursor=pointer]:
+            - img [ref=e336]
+            - generic [ref=e339]: OCR
+          - generic [ref=e341] [cursor=pointer]:
+            - img [ref=e342]
+            - generic [ref=e346]: Document Analysis
+          - generic [ref=e348] [cursor=pointer]:
+            - img [ref=e349]
+            - generic [ref=e352]: Visual QA
+          - generic [ref=e354] [cursor=pointer]:
+            - img [ref=e355]
+            - generic [ref=e358]: Image Captioning
+          - generic [ref=e360] [cursor=pointer]:
+            - img [ref=e361]
+            - generic [ref=e365]: Chatbots
+          - generic [ref=e367] [cursor=pointer]:
+            - img [ref=e368]
+            - generic [ref=e374]: Sentiment Analysis
+          - generic [ref=e376] [cursor=pointer]:
+            - img [ref=e377]
+            - generic [ref=e380]: Text Summarization
+          - generic [ref=e382] [cursor=pointer]:
+            - img [ref=e383]
+            - generic [ref=e387]: Medical Imaging
+          - generic [ref=e389] [cursor=pointer]:
+            - img [ref=e390]
+            - generic [ref=e393]: Financial Analysis
+          - generic [ref=e395] [cursor=pointer]:
+            - img [ref=e396]
+            - generic [ref=e399]: Game AI
+          - generic [ref=e401] [cursor=pointer]:
+            - img [ref=e402]
+            - generic [ref=e406]: Model Benchmarking
+          - generic [ref=e408] [cursor=pointer]:
+            - img [ref=e409]
+            - generic [ref=e413]: Fine Tuning Tools
+          - generic [ref=e415] [cursor=pointer]:
+            - img [ref=e416]
+            - generic [ref=e419]: Dataset Creation
+          - generic [ref=e421] [cursor=pointer]:
+            - img [ref=e422]
+            - generic [ref=e425]: Pose Estimation
+          - generic [ref=e427] [cursor=pointer]:
+            - img [ref=e428]
+            - generic [ref=e432]: Face Recognition
+          - generic [ref=e434] [cursor=pointer]:
+            - img [ref=e435]
+            - generic [ref=e441]: Anomaly Detection
+          - generic [ref=e443] [cursor=pointer]:
+            - img [ref=e444]
+            - generic [ref=e447]: Recommendation Systems
+          - generic [ref=e449] [cursor=pointer]:
+            - img [ref=e450]
+            - generic [ref=e453]: Character Animation
+          - generic [ref=e455] [cursor=pointer]:
+            - img [ref=e456]
+            - generic [ref=e459]: Style Transfer
+          - generic [ref=e461] [cursor=pointer]:
+            - img [ref=e462]
+            - generic [ref=e465]: Agent Environment
+          - generic [ref=e467] [cursor=pointer]:
+            - img [ref=e468]
+            - generic [ref=e471]: Image
+        - button [ref=e472] [cursor=pointer]:
+          - img [ref=e473]
+      - generic [ref=e475]:
+        - generic [ref=e476]:
+          - button "Clear Search" [ref=e477] [cursor=pointer]:
+            - img [ref=e478]
+            - text: Clear Search
+          - generic [ref=e480]:
+            - generic [ref=e481]:
+              - img [ref=e482]
+              - searchbox "Filter by name" [ref=e484]: whisper
+            - generic [ref=e485]:
+              - button "Filters (0)" [ref=e487] [cursor=pointer]:
+                - img [ref=e488]
+                - generic [ref=e490]: Filters
+                - generic [ref=e491]: (0)
+              - 'button "Sort: Relevance" [ref=e493] [cursor=pointer]':
+                - img [ref=e494]
+                - text: "Sort: Relevance"
+        - generic [ref=e497]:
+          - generic [ref=e498]:
+            - article [ref=e499]:
+              - link "Running Featured 2.84k sanchit-gandhi Sep 16, 2024" [ref=e500] [cursor=pointer]:
+                - /url: /spaces/sanchit-gandhi/whisper-jax
+                - generic [ref=e501]:
+                  - generic [ref=e504]: Running
+                  - generic [ref=e505]:
+                    - generic [ref=e506]:
+                      - img [ref=e507]
+                      - generic [ref=e510]: Featured
+                    - generic [ref=e511]:
+                      - img [ref=e512]
+                      - generic [ref=e514]: 2.84k
+                - main [ref=e515]:
+                  - generic [ref=e516]:
+                    - generic [ref=e518]:
+                      - heading "Whisper JAX" [level=4] [ref=e519]
+                      - generic [ref=e520]: ⚡
+                    - paragraph
+                - generic [ref=e521]:
+                  - button "sanchit-gandhi" [ref=e523]: sanchit-gandhi
+                  - time [ref=e525]: Sep 16, 2024
+            - article [ref=e526]:
+              - link "Running on Zero Agents 2.87k openai Sep 19, 2025" [ref=e527] [cursor=pointer]:
+                - /url: /spaces/openai/whisper
+                - generic [ref=e528]:
+                  - generic [ref=e529]:
+                    - generic [ref=e531]:
+                      - text: Running
+                      - generic [ref=e532]: "on"
+                      - img [ref=e533]
+                      - generic [ref=e535]: Zero
+                    - generic [ref=e536]:
+                      - img [ref=e537]
+                      - generic [ref=e542]: Agents
+                  - generic [ref=e543]:
+                    - img [ref=e545]
+                    - generic [ref=e548]:
+                      - img [ref=e549]
+                      - generic [ref=e551]: 2.87k
+                - main [ref=e552]:
+                  - generic [ref=e553]:
+                    - generic [ref=e555]:
+                      - heading "Whisper" [level=4] [ref=e556]
+                      - generic [ref=e557]: 📉
+                    - paragraph [ref=e558]: Transcribe audio or YouTube video into text
+                - generic [ref=e559]:
+                  - button "openai" [ref=e561]: openai
+                  - time [ref=e563]: Sep 19, 2025
+            - article [ref=e564]:
+              - link "Running Agents 160 avans06 Jul 30, 2025" [ref=e565] [cursor=pointer]:
+                - /url: /spaces/avans06/whisper-webui-translate
+                - generic [ref=e566]:
+                  - generic [ref=e567]:
+                    - generic [ref=e569]: Running
+                    - generic [ref=e570]:
+                      - img [ref=e571]
+                      - generic [ref=e576]: Agents
+                  - generic [ref=e578]:
+                    - img [ref=e579]
+                    - generic [ref=e581]: "160"
+                - main [ref=e582]:
+                  - generic [ref=e583]:
+                    - generic [ref=e585]:
+                      - heading "Faster Whisper Webui with translate" [level=4] [ref=e586]
+                      - generic [ref=e587]: ✨
+                    - paragraph [ref=e588]: Transcribe audio files into text
+                - generic [ref=e589]:
+                  - button "avans06" [ref=e592]: avans06
+                  - time [ref=e594]: Jul 30, 2025
+            - article [ref=e595]:
+              - link "Running Agents 31 dinhhccs Sep 17, 2023" [ref=e596] [cursor=pointer]:
+                - /url: /spaces/dinhhccs/Transcribe_Audio_Whisper
+                - generic [ref=e597]:
+                  - generic [ref=e598]:
+                    - generic [ref=e600]: Running
+                    - generic [ref=e601]:
+                      - img [ref=e602]
+                      - generic [ref=e607]: Agents
+                  - generic [ref=e609]:
+                    - img [ref=e610]
+                    - generic [ref=e612]: "31"
+                - main [ref=e613]:
+                  - generic [ref=e614]:
+                    - generic [ref=e616]:
+                      - heading "Transcribe Audio Whisper" [level=4] [ref=e617]
+                      - generic [ref=e618]: 🦀
+                    - paragraph [ref=e619]: Transcribe audio or YouTube videos into text
+                - generic [ref=e620]:
+                  - button "dinhhccs" [ref=e622]: dinhhccs
+                  - time [ref=e624]: Sep 17, 2023
+            - article [ref=e625]:
+              - link "Running 45 ragavsachdeva Apr 3, 2025" [ref=e626] [cursor=pointer]:
+                - /url: /spaces/ragavsachdeva/the-manga-whisperer
+                - generic [ref=e627]:
+                  - generic [ref=e630]: Running
+                  - generic [ref=e632]:
+                    - img [ref=e633]
+                    - generic [ref=e635]: "45"
+                - main [ref=e636]:
+                  - generic [ref=e637]:
+                    - generic [ref=e639]:
+                      - heading "Magi Demo" [level=4] [ref=e640]
+                      - generic [ref=e641]: 🏢
+                    - paragraph [ref=e642]: Generate comic transcriptions from images
+                - generic [ref=e643]:
+                  - button "ragavsachdeva" [ref=e645]: ragavsachdeva
+                  - time [ref=e647]: Apr 3, 2025
+            - article [ref=e648]:
+              - link "Running Agents 47 jhj0517 Nov 7, 2024" [ref=e649] [cursor=pointer]:
+                - /url: /spaces/jhj0517/Whisper-WebUI
+                - generic [ref=e650]:
+                  - generic [ref=e651]:
+                    - generic [ref=e653]: Running
+                    - generic [ref=e654]:
+                      - img [ref=e655]
+                      - generic [ref=e660]: Agents
+                  - generic [ref=e662]:
+                    - img [ref=e663]
+                    - generic [ref=e665]: "47"
+                - main [ref=e666]:
+                  - generic [ref=e667]:
+                    - generic [ref=e669]:
+                      - heading "Whisper-WebUI" [level=4] [ref=e670]
+                      - generic [ref=e671]: 🚀
+                    - paragraph [ref=e672]: Generate subtitles and translate audio files
+                - generic [ref=e673]:
+                  - button "jhj0517" [ref=e675]: jhj0517
+                  - time [ref=e677]: Nov 7, 2024
+            - article [ref=e678]:
+              - link "Running Agents 1 Ganbatte Jun 17, 2025" [ref=e679] [cursor=pointer]:
+                - /url: /spaces/Ganbatte/STT-whisper-large-v3
+                - generic [ref=e680]:
+                  - generic [ref=e681]:
+                    - generic [ref=e683]: Running
+                    - generic [ref=e684]:
+                      - img [ref=e685]
+                      - generic [ref=e690]: Agents
+                  - generic [ref=e692]:
+                    - img [ref=e693]
+                    - generic [ref=e695]: "1"
+                - main [ref=e696]:
+                  - generic [ref=e697]:
+                    - generic [ref=e699]:
+                      - heading "STT Whisper Large V3" [level=4] [ref=e700]
+                      - generic [ref=e701]: 🌍
+                    - paragraph [ref=e702]: Convert audio from Google Drive to text
+                - generic [ref=e703]:
+                  - button "Ganbatte" [ref=e705]: Ganbatte
+                  - time [ref=e707]: Jun 17, 2025
+            - article [ref=e708]:
+              - link "Running on Zero Agents 1 Hemanthdfdgh Sep 8" [ref=e709] [cursor=pointer]:
+                - /url: /spaces/Hemanthdfdgh/dimentiacare-whisper
+                - generic [ref=e710]:
+                  - generic [ref=e711]:
+                    - generic [ref=e713]:
+                      - text: Running
+                      - generic [ref=e714]: "on"
+                      - img [ref=e715]
+                      - generic [ref=e717]: Zero
+                    - generic [ref=e718]:
+                      - img [ref=e719]
+                      - generic [ref=e724]: Agents
+                  - generic [ref=e726]:
+                    - img [ref=e727]
+                    - generic [ref=e729]: "1"
+                - main [ref=e730]:
+                  - generic [ref=e731]:
+                    - generic [ref=e733]:
+                      - heading "Dimentiacare Whisper" [level=4] [ref=e734]
+                      - generic [ref=e735]: 📉
+                    - paragraph [ref=e736]: Transcribe spoken audio into text instantly
+                - generic [ref=e737]:
+                  - button "Hemanthdfdgh" [ref=e739]: Hemanthdfdgh
+                  - time [ref=e741]: Sep 8
+            - article [ref=e742]:
+              - link "Running 1 elgabon 19 days ago" [ref=e743] [cursor=pointer]:
+                - /url: /spaces/elgabon/whisper-browser-stt
+                - generic [ref=e744]:
+                  - generic [ref=e747]: Running
+                  - generic [ref=e749]:
+                    - img [ref=e750]
+                    - generic [ref=e752]: "1"
+                - main [ref=e753]:
+                  - generic [ref=e754]:
+                    - generic [ref=e756]:
+                      - heading "Whisper Browser STT" [level=4] [ref=e757]
+                      - generic [ref=e758]: 🎙
+                    - paragraph [ref=e759]: Whisper speech-to-text running fully in your browser
+                - generic [ref=e760]:
+                  - button "elgabon" [ref=e762]: elgabon
+                  - time [ref=e764]: 19 days ago
+            - article [ref=e765]:
+              - link "Running 1 infosave 10 days ago" [ref=e766] [cursor=pointer]:
+                - /url: /spaces/infosave/cortiq-whisper-transcriber
+                - generic [ref=e767]:
+                  - generic [ref=e770]: Running
+                  - generic [ref=e772]:
+                    - img [ref=e773]
+                    - generic [ref=e775]: "1"
+                - main [ref=e776]:
+                  - generic [ref=e777]:
+                    - generic [ref=e779]:
+                      - heading "Cortiq Whisper Transcriber" [level=4] [ref=e780]
+                      - generic [ref=e781]: 🎙
+                    - paragraph [ref=e782]: Record or upload audio for Cortiq transcription.
+                - generic [ref=e783]:
+                  - button "infosave" [ref=e785]: infosave
+                  - time [ref=e787]: 10 days ago
+            - article [ref=e788]:
+              - link "Runtime error Agents 7 nickmuchi Nov 1, 2022" [ref=e789] [cursor=pointer]:
+                - /url: /spaces/nickmuchi/Netflix-Semantic-Search-Whisperer
+                - generic [ref=e790]:
+                  - generic [ref=e791]:
+                    - generic [ref=e793]:
+                      - img [ref=e794]
+                      - text: Runtime error
+                    - generic [ref=e796]:
+                      - img [ref=e797]
+                      - generic [ref=e802]: Agents
+                  - generic [ref=e804]:
+                    - img [ref=e805]
+                    - generic [ref=e807]: "7"
+                - main [ref=e808]:
+                  - generic [ref=e809]:
+                    - generic [ref=e811]:
+                      - heading "Netflix Semantic Search Whisperer" [level=4] [ref=e812]
+                      - generic [ref=e813]: 🐠
+                    - paragraph
+                - generic [ref=e814]:
+                  - button "nickmuchi" [ref=e816]: nickmuchi
+                  - time [ref=e818]: Nov 1, 2022
+            - article [ref=e819]:
+              - link "Runtime error Agents 68 Amrrs Sep 22, 2022" [ref=e820] [cursor=pointer]:
+                - /url: /spaces/Amrrs/openai-whisper-live-transcribe
+                - generic [ref=e821]:
+                  - generic [ref=e822]:
+                    - generic [ref=e824]:
+                      - img [ref=e825]
+                      - text: Runtime error
+                    - generic [ref=e827]:
+                      - img [ref=e828]
+                      - generic [ref=e833]: Agents
+                  - generic [ref=e835]:
+                    - img [ref=e836]
+                    - generic [ref=e838]: "68"
+                - main [ref=e839]:
+                  - generic [ref=e840]:
+                    - generic [ref=e842]:
+                      - heading "Openai Whisper Live Transcribe" [level=4] [ref=e843]
+                      - generic [ref=e844]: 🎙
+                    - paragraph [ref=e845]: Transcribe spoken words into text
+                - generic [ref=e846]:
+                  - button "Amrrs" [ref=e848]: Amrrs
+                  - time [ref=e850]: Sep 22, 2022
+            - article [ref=e851]:
+              - link "Runtime error Agents 12 mrm8488 Sep 22, 2022" [ref=e852] [cursor=pointer]:
+                - /url: /spaces/mrm8488/OpenAI_Whisper_ASR
+                - generic [ref=e853]:
+                  - generic [ref=e854]:
+                    - generic [ref=e856]:
+                      - img [ref=e857]
+                      - text: Runtime error
+                    - generic [ref=e859]:
+                      - img [ref=e860]
+                      - generic [ref=e865]: Agents
+                  - generic [ref=e867]:
+                    - img [ref=e868]
+                    - generic [ref=e870]: "12"
+                - main [ref=e871]:
+                  - generic [ref=e872]:
+                    - generic [ref=e874]:
+                      - heading "OpenAI Whisper ASR" [level=4] [ref=e875]
+                      - generic [ref=e876]: 🗣
+                    - paragraph
+                - generic [ref=e877]:
+                  - button "mrm8488" [ref=e879]: mrm8488
+                  - time [ref=e881]: Sep 22, 2022
+            - article [ref=e882]:
+              - link "Runtime error Agents 2 jeonsworld Sep 22, 2022" [ref=e883] [cursor=pointer]:
+                - /url: /spaces/jeonsworld/whisper-medium-ko
+                - generic [ref=e884]:
+                  - generic [ref=e885]:
+                    - generic [ref=e887]:
+                      - img [ref=e888]
+                      - text: Runtime error
+                    - generic [ref=e890]:
+                      - img [ref=e891]
+                      - generic [ref=e896]: Agents
+                  - generic [ref=e898]:
+                    - img [ref=e899]
+                    - generic [ref=e901]: "2"
+                - main [ref=e902]:
+                  - generic [ref=e903]:
+                    - generic [ref=e905]:
+                      - heading "whisper-medium-ko" [level=4] [ref=e906]
+                      - generic [ref=e907]: 📉
+                    - paragraph
+                - generic [ref=e908]:
+                  - button "jeonsworld" [ref=e910]: jeonsworld
+                  - time [ref=e912]: Sep 22, 2022
+            - article [ref=e913]:
+              - link "Runtime error Agents 1 Xhaheen Sep 22, 2022" [ref=e914] [cursor=pointer]:
+                - /url: /spaces/Xhaheen/ASR_Whisper_OpenAI
+                - generic [ref=e915]:
+                  - generic [ref=e916]:
+                    - generic [ref=e918]:
+                      - img [ref=e919]
+                      - text: Runtime error
+                    - generic [ref=e921]:
+                      - img [ref=e922]
+                      - generic [ref=e927]: Agents
+                  - generic [ref=e929]:
+                    - img [ref=e930]
+                    - generic [ref=e932]: "1"
+                - main [ref=e933]:
+                  - generic [ref=e934]:
+                    - generic [ref=e936]:
+                      - heading "ASR Whisper OpenAI" [level=4] [ref=e937]
+                      - generic [ref=e938]: 🏢
+                    - paragraph
+                - generic [ref=e939]:
+                  - button "Xhaheen" [ref=e941]: Xhaheen
+                  - time [ref=e943]: Sep 22, 2022
+            - article [ref=e944]:
+              - link "Runtime error Agents Xhaheen Sep 22, 2022" [ref=e945] [cursor=pointer]:
+                - /url: /spaces/Xhaheen/openai_live_whisper
+                - generic [ref=e947]:
+                  - generic [ref=e949]:
+                    - img [ref=e950]
+                    - text: Runtime error
+                  - generic [ref=e952]:
+                    - img [ref=e953]
+                    - generic [ref=e958]: Agents
+                - main [ref=e959]:
+                  - generic [ref=e960]:
+                    - generic [ref=e962]:
+                      - heading "Openai Live Whisper" [level=4] [ref=e963]
+                      - generic [ref=e964]: 🐠
+                    - paragraph
+                - generic [ref=e965]:
+                  - button "Xhaheen" [ref=e967]: Xhaheen
+                  - time [ref=e969]: Sep 22, 2022
+            - article [ref=e970]:
+              - link "Build error Agents 72 ysharma Sep 23, 2022" [ref=e971] [cursor=pointer]:
+                - /url: /spaces/ysharma/Talk_to_Multilingual_AI_WhisperBloomCoqui
+                - generic [ref=e972]:
+                  - generic [ref=e973]:
+                    - generic [ref=e975]:
+                      - img [ref=e976]
+                      - text: Build error
+                    - generic [ref=e978]:
+                      - img [ref=e979]
+                      - generic [ref=e984]: Agents
+                  - generic [ref=e986]:
+                    - img [ref=e987]
+                    - generic [ref=e989]: "72"
+                - main [ref=e990]:
+                  - generic [ref=e991]:
+                    - generic [ref=e993]:
+                      - heading "Talk To Multilingual AI WhisperBloomCoqui" [level=4] [ref=e994]
+                      - generic [ref=e995]: 📉
+                    - paragraph
+                - generic [ref=e996]:
+                  - button "ysharma" [ref=e998]: ysharma
+                  - time [ref=e1000]: Sep 23, 2022
+            - article [ref=e1001]:
+              - link "Runtime error Agents frkngk Sep 22, 2022" [ref=e1002] [cursor=pointer]:
+                - /url: /spaces/frkngk/whisper_fork
+                - generic [ref=e1004]:
+                  - generic [ref=e1006]:
+                    - img [ref=e1007]
+                    - text: Runtime error
+                  - generic [ref=e1009]:
+                    - img [ref=e1010]
+                    - generic [ref=e1015]: Agents
+                - main [ref=e1016]:
+                  - generic [ref=e1017]:
+                    - generic [ref=e1019]:
+                      - heading "Whisper Fork" [level=4] [ref=e1020]
+                      - generic [ref=e1021]: 📚
+                    - paragraph
+                - generic [ref=e1022]:
+                  - button "frkngk" [ref=e1024]: frkngk
+                  - time [ref=e1026]: Sep 22, 2022
+            - article [ref=e1027]:
+              - link "Runtime error Agents 0xharib Sep 22, 2022" [ref=e1028] [cursor=pointer]:
+                - /url: /spaces/0xharib/whisper_upload_small
+                - generic [ref=e1030]:
+                  - generic [ref=e1032]:
+                    - img [ref=e1033]
+                    - text: Runtime error
+                  - generic [ref=e1035]:
+                    - img [ref=e1036]
+                    - generic [ref=e1041]: Agents
+                - main [ref=e1042]:
+                  - generic [ref=e1043]:
+                    - generic [ref=e1045]:
+                      - heading "Whisper Upload Small" [level=4] [ref=e1046]
+                      - generic [ref=e1047]: ⚡
+                    - paragraph
+                - generic [ref=e1048]:
+                  - button "0xharib" [ref=e1050]: 0xharib
+                  - time [ref=e1052]: Sep 22, 2022
+            - article [ref=e1053]:
+              - link "Paused Agents Featured 115 fffiloni Jun 13, 2023" [ref=e1054] [cursor=pointer]:
+                - /url: /spaces/fffiloni/whisper-to-stable-diffusion
+                - generic [ref=e1055]:
+                  - generic [ref=e1056]:
+                    - generic [ref=e1058]:
+                      - img [ref=e1059]
+                      - text: Paused
+                    - generic [ref=e1061]:
+                      - img [ref=e1062]
+                      - generic [ref=e1067]: Agents
+                  - generic [ref=e1068]:
+                    - generic [ref=e1069]:
+                      - img [ref=e1070]
+                      - generic [ref=e1073]: Featured
+                    - generic [ref=e1074]:
+                      - img [ref=e1075]
+                      - generic [ref=e1077]: "115"
+                - main [ref=e1078]:
+                  - generic [ref=e1079]:
+                    - generic [ref=e1081]:
+                      - heading "Whisper To Stable Diffusion" [level=4] [ref=e1082]
+                      - generic [ref=e1083]: 🔊
+                    - paragraph
+                - generic [ref=e1084]:
+                  - button "fffiloni" [ref=e1086]: fffiloni
+                  - time [ref=e1088]: Jun 13, 2023
+            - article [ref=e1089]:
+              - link "Build error Agents 365 aadnk 8 days ago" [ref=e1090] [cursor=pointer]:
+                - /url: /spaces/aadnk/whisper-webui
+                - generic [ref=e1091]:
+                  - generic [ref=e1092]:
+                    - generic [ref=e1094]:
+                      - img [ref=e1095]
+                      - text: Build error
+                    - generic [ref=e1097]:
+                      - img [ref=e1098]
+                      - generic [ref=e1103]: Agents
+                  - generic [ref=e1105]:
+                    - img [ref=e1106]
+                    - generic [ref=e1108]: "365"
+                - main [ref=e1109]:
+                  - generic [ref=e1110]:
+                    - generic [ref=e1112]:
+                      - heading "Whisper Webui" [level=4] [ref=e1113]
+                      - generic [ref=e1114]: ⚡
+                    - paragraph
+                - generic [ref=e1115]:
+                  - button "aadnk" [ref=e1117]: aadnk
+                  - time [ref=e1119]: 8 days ago
+            - article [ref=e1120]:
+              - link "Runtime error Agents 27 davidtsong Sep 23, 2022" [ref=e1121] [cursor=pointer]:
+                - /url: /spaces/davidtsong/whisper-demo
+                - generic [ref=e1122]:
+                  - generic [ref=e1123]:
+                    - generic [ref=e1125]:
+                      - img [ref=e1126]
+                      - text: Runtime error
+                    - generic [ref=e1128]:
+                      - img [ref=e1129]
+                      - generic [ref=e1134]: Agents
+                  - generic [ref=e1136]:
+                    - img [ref=e1137]
+                    - generic [ref=e1139]: "27"
+                - main [ref=e1140]:
+                  - generic [ref=e1141]:
+                    - generic [ref=e1143]:
+                      - heading "Whisper Demo" [level=4] [ref=e1144]
+                      - generic [ref=e1145]: 📈
+                    - paragraph
+                - generic [ref=e1146]:
+                  - button "davidtsong" [ref=e1148]: davidtsong
+                  - time [ref=e1150]: Sep 23, 2022
+            - article [ref=e1151]:
+              - link "Runtime error Agents rosskrasner Sep 23, 2022" [ref=e1152] [cursor=pointer]:
+                - /url: /spaces/rosskrasner/whispertest
+                - generic [ref=e1154]:
+                  - generic [ref=e1156]:
+                    - img [ref=e1157]
+                    - text: Runtime error
+                  - generic [ref=e1159]:
+                    - img [ref=e1160]
+                    - generic [ref=e1165]: Agents
+                - main [ref=e1166]:
+                  - generic [ref=e1167]:
+                    - generic [ref=e1169]:
+                      - heading "Whispertest" [level=4] [ref=e1170]
+                      - generic [ref=e1171]: 🌍
+                    - paragraph
+                - generic [ref=e1172]:
+                  - button "rosskrasner" [ref=e1174]: rosskrasner
+                  - time [ref=e1176]: Sep 23, 2022
+            - article [ref=e1177]:
+              - link "Running Agents 30 anzorq Oct 28, 2022" [ref=e1178] [cursor=pointer]:
+                - /url: /spaces/anzorq/openai_whisper_stt
+                - generic [ref=e1179]:
+                  - generic [ref=e1180]:
+                    - generic [ref=e1182]: Running
+                    - generic [ref=e1183]:
+                      - img [ref=e1184]
+                      - generic [ref=e1189]: Agents
+                  - generic [ref=e1191]:
+                    - img [ref=e1192]
+                    - generic [ref=e1194]: "30"
+                - main [ref=e1195]:
+                  - generic [ref=e1196]:
+                    - generic [ref=e1198]:
+                      - heading "OpenAI's Whisper Real-time Demo" [level=4] [ref=e1199]
+                      - generic [ref=e1200]: 🎙
+                    - paragraph [ref=e1201]: Transcribe and translate spoken audio
+                - generic [ref=e1202]:
+                  - button "anzorq" [ref=e1204]: anzorq
+                  - time [ref=e1206]: Oct 28, 2022
+          - navigation [ref=e1207]:
+            - list [ref=e1208]:
+              - listitem [ref=e1209]:
+                - link "Previous":
+                  - /url: ""
+                  - img
+                  - text: Previous
+              - listitem [ref=e1210]:
+                - link "1" [ref=e1211] [cursor=pointer]:
+                  - /url: "?p=0&sort=relevance&search=whisper&includeNonRunning=true"
+              - listitem [ref=e1212]:
+                - link "2" [ref=e1213] [cursor=pointer]:
+                  - /url: "?p=1&sort=relevance&search=whisper&includeNonRunning=true"
+              - listitem [ref=e1214]:
+                - link "3" [ref=e1215] [cursor=pointer]:
+                  - /url: "?p=2&sort=relevance&search=whisper&includeNonRunning=true"
+              - listitem [ref=e1216]:
+                - link "...":
+                  - /url: "#"
+              - listitem [ref=e1217]:
+                - link "100" [ref=e1218] [cursor=pointer]:
+                  - /url: "?p=99&sort=relevance&search=whisper&includeNonRunning=true"
+              - listitem [ref=e1219]:
+                - link "Next" [ref=e1220] [cursor=pointer]:
+                  - /url: "?p=1&sort=relevance&search=whisper&includeNonRunning=true"
+                  - text: Next
+                  - img [ref=e1221]
+  - contentinfo [ref=e1223]:
+    - navigation [ref=e1224]:
+      - button "System theme" [ref=e1227] [cursor=pointer]:
+        - img [ref=e1228]
+        - text: System theme
+      - link "TOS" [ref=e1233] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e1234] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e1235] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e1236] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e1237] [cursor=pointer]:
+        - /url: /
+        - img [ref=e1238]
+      - link "Models" [ref=e1252] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e1253] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e1254] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e1255] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e1256] [cursor=pointer]:
+        - /url: /docs

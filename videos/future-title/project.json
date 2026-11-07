@@ -1,0 +1,11 @@
+{
+  "id": "FutureTitle",
+  "slug": "future-title",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "reviewFrame": 135,
+  "port": 3213,
+  "gl": null
+}

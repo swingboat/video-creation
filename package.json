@@ -1,0 +1,13 @@
+{
+  "name": "video-creation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Index of independent Remotion video projects",
+  "scripts": {
+    "dev": "npm --prefix videos/unet-explainer run dev",
+    "dev:future": "npm --prefix videos/future-title run dev",
+    "dev:seaside": "npm --prefix videos/seaside-skate run dev",
+    "dev:clinic": "npm --prefix videos/dental-clinic-city run dev",
+    "dev:hello": "npm --prefix videos/hello-remotion run dev"
+  }
+}

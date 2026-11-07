@@ -1,0 +1,40 @@
+{
+  "name": "hurdles-110m-stadium",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/task.mjs build",
+    "preview": "node scripts/task.mjs preview",
+    "check": "node scripts/task.mjs check",
+    "studio": "node scripts/task.mjs studio",
+    "render": "node scripts/task.mjs render",
+    "render:3d": "node scripts/task.mjs render:3d",
+    "build:scene": "node scripts/run-offline.mjs build",
+    "render:scene": "node scripts/run-offline.mjs frames 1 66 24",
+    "encode:scene": "python3 scripts/encode-offline.py",
+    "assets:lookdev": "python3 scripts/fetch-scan-v6.py",
+    "build:lookdev": "node scripts/run-realism-v6.mjs build",
+    "render:lookdev": "node scripts/render-lookdev-v6.mjs",
+    "review:lookdev": "node scripts/build-lookdev-v6.mjs",
+    "check:lookdev": "node scripts/check-lookdev-v6.mjs",
+    "assets:free": "python3 scripts/fetch-free-v7.py",
+    "build:free": "node scripts/run-free-v7.mjs build",
+    "render:free": "node scripts/render-free-v7.mjs",
+    "review:free": "node scripts/build-review-v7.mjs",
+    "check:free": "node scripts/check-free-v7.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.361",
+    "@remotion/media": "4.0.361",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.361",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.3",
+    "esbuild": "0.25.0",
+    "typescript": "5.7.3"
+  }
+}

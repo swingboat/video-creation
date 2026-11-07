@@ -1,0 +1,44 @@
+{
+  "name": "bottle-storm-recreation-20261106",
+  "version": "1.0.0",
+  "description": "Procedural Blender Cycles bottle storm, composed in Remotion",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "@remotion/media": "4.0.541",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.541"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.541",
+    "@types/react": "19.3.0",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "node scripts/run.mjs dev",
+    "build": "node scripts/run.mjs bundle",
+    "scene": "node scripts/run.mjs rebuild-scene",
+    "preview:scene": "node scripts/run.mjs preview-scene",
+    "render:scene": "node scripts/run.mjs render-scene",
+    "audio": "node scripts/run.mjs audio",
+    "encode": "node scripts/run.mjs encode",
+    "render": "node scripts/run.mjs render",
+    "check": "node scripts/run.mjs check",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc",
+    "base": "node scripts/run.mjs build-scene",
+    "blocking": "node scripts/run.mjs blocking"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

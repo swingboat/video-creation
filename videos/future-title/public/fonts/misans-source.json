@@ -1,0 +1,16 @@
+{
+  "source": "https://hyperos.mi.com/font/download",
+  "archive": "https://hyperos.mi.com/font-download/MiSans.zip",
+  "fonts": [
+    {
+      "file": "MiSans-Bold.woff2",
+      "sha256": "1c5a7515b61bc82baaa2e2c2fdae2032479fb9a99e09d4d021dc17314fc5939b",
+      "bytes": 5081104
+    },
+    {
+      "file": "MiSans-Regular.woff2",
+      "sha256": "d704c1a932c0bd7e8a071d276cd81c0ed0c9fecfa26ac234f4bed0559fe1cb2d",
+      "bytes": 4858624
+    }
+  ]
+}

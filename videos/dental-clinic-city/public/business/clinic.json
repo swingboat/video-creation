@@ -1,0 +1,31 @@
+{
+  "name": "安心口腔门诊",
+  "city": "杭州",
+  "district": "西湖区",
+  "address": "某某路 88 号",
+  "services": ["洗牙", "补牙", "儿童齿科"],
+  "highlights": [
+    {"title": "洗牙 / 补牙 / 儿童齿科", "detail": "日常口腔照护"},
+    {"title": "提前预约", "detail": "不用长时间排队"},
+    {"title": "价格透明", "detail": "到店先检查"}
+  ],
+  "cta": "私信预约，到店先检查",
+  "locationNote": "城市位置示意",
+  "theme": {"brand": "#147b79", "background": "#f3f7f5", "marker": "#ec6258"},
+  "store": {"position": [2.2, 0.1], "width": 3.2, "height": 2.7, "depth": 2.8},
+  "buildings": [
+    {"id": "a1", "position": [-6.5, -5.7], "width": 2.2, "depth": 2.2, "height": 3.9, "color": "#d5ddd8"},
+    {"id": "a2", "position": [-3.3, -5.6], "width": 2.2, "depth": 2.4, "height": 5.5, "color": "#bfd3cd"},
+    {"id": "a3", "position": [0.1, -5.8], "width": 2.1, "depth": 2.2, "height": 3.1, "color": "#e2ddcc"},
+    {"id": "a4", "position": [3.4, -5.5], "width": 2.3, "depth": 2.4, "height": 4.8, "color": "#c8d9d6"},
+    {"id": "a5", "position": [6.6, -5.8], "width": 2.0, "depth": 2.0, "height": 3.5, "color": "#e5e1d4"},
+    {"id": "b1", "position": [-6.4, -1.6], "width": 2.3, "depth": 2.6, "height": 4.6, "color": "#c7d5d0"},
+    {"id": "b2", "position": [-3.2, -1.5], "width": 2.1, "depth": 2.4, "height": 3.1, "color": "#e0ded0"},
+    {"id": "b3", "position": [6.7, -1.7], "width": 2.0, "depth": 2.0, "height": 3.8, "color": "#d6e1da"},
+    {"id": "c1", "position": [-6.5, 6.5], "width": 2.2, "depth": 2.0, "height": 2.4, "color": "#e1ddce"},
+    {"id": "c2", "position": [-3.2, 6.5], "width": 2.1, "depth": 2.0, "height": 2.9, "color": "#ceddd6"},
+    {"id": "c3", "position": [0.2, 6.5], "width": 2.0, "depth": 2.0, "height": 1.9, "color": "#e5e1d5"},
+    {"id": "c4", "position": [3.5, 6.5], "width": 2.2, "depth": 2.1, "height": 2.5, "color": "#c4d5ce"},
+    {"id": "c5", "position": [6.7, 6.5], "width": 2.0, "depth": 2.0, "height": 2.1, "color": "#dbded4"}
+  ]
+}

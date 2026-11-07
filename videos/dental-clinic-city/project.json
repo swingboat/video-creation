@@ -1,0 +1,11 @@
+{
+  "id": "DentalClinicCity",
+  "slug": "dental-clinic-city",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 900,
+  "reviewFrame": 600,
+  "port": 3215,
+  "gl": "angle"
+}

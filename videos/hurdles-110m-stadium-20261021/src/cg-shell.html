@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#eceee6"><title>110 米栏 · 代码生成动画</title><style>/*STYLE*/</style></head>
+<body>
+<div class="page-shell">
+<header><a class="brand" href="#">TRACK <span>/</span> FIELD <i>110 米栏</i></a><div class="edition"><b></b> CODE / MOTION <span>SESSION 03</span></div></header>
+<main>
+<section class="editorial"><div class="eyebrow">THE ART OF CLEARANCE</div><h1>110<small>米栏训练</small></h1><p class="statement">每一次越过，<br>都是新的起点。</p><div class="editorial-rule"></div><p class="subtle">把节奏放慢，<br>看见真实的力量。</p><div class="authentic"><span></span> Blender Cycles · 代码渲染</div><a class="three-link" href="hurdle-110-3d.html">实时 3D 对照版 <span>↗</span></a></section>
+<section class="film-column" aria-label="代码渲染动画播放器">
+<div class="film-heading"><span>01 <i>/</i> TRACKING SHOT</span><span>1280 × 720</span></div>
+<div class="film-frame" id="film-frame">
+<video id="film" playsinline muted preload="metadata" aria-label="运动员在室外田径场向镜头跑来并连续跨栏的代码生成动画"></video>
+<div class="film-shade"></div><div class="film-badge">CODE RENDERED</div>
+<button class="hero-play" id="hero-play" aria-label="播放代码生成动画"><svg viewBox="0 0 24 24"><path d="m9 5 10 7-10 7Z"/></svg><span>播放生成动画</span></button>
+<div class="frame-caption"><span id="caption">代码驱动，逐帧生成。</span><span class="frame-count" id="frame-count">FRAME 000</span></div>
+<div class="load-status" id="load-status" role="status">正在准备训练影像…</div>
+</div>
+<div class="film-footer"><span>FIELD NOTES / 110H</span><span>正面机位 · 原始画幅</span></div>
+</section>
+<aside class="notes"><div class="eyebrow">DETAILS IN MOTION</div><h2>动作回看</h2><p>停在一个瞬间，<br>看清每一次越过。</p>
+<div class="moment-list">
+<button class="moment" data-time="1.125"><img id="moment-approach" alt="运动员接近前方栏架"><div><span>01 / APPROACH</span><strong>攻栏</strong><small>01.13 s</small></div><svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button>
+<button class="moment" data-time="1.4167"><img id="moment-flight" alt="运动员腾空越过栏架"><div><span>02 / CLEARANCE</span><strong>腾空</strong><small>01.42 s</small></div><svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button>
+<button class="moment" data-time="1.625"><img id="moment-landing" alt="运动员过栏后继续跑动"><div><span>03 / CONTINUE</span><strong>继续向前</strong><small>01.63 s</small></div><svg viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></svg></button>
+</div>
+<div class="source-note"><span>RENDERED LOCALLY</span><p>2.75 秒代码生成样片；<br>不使用现成动态视频。</p><button id="credits-open">源码与素材说明 ↗</button></div>
+</aside>
+</main>
+<footer class="transport-wrap"><div class="transport"><button id="play" class="play" aria-label="播放训练"><svg viewBox="0 0 24 24"><path id="play-icon" d="m9 5 10 7-10 7Z"/></svg></button><button id="restart" class="icon" aria-label="从头重播"><svg viewBox="0 0 24 24"><path d="M3 10a9 9 0 1 1 2 8M3 4v6h6"/></svg></button><div class="seek-group"><div class="seek-label"><span id="time">00.00</span><span>TRAINING EXCERPT</span><span id="duration">02.750 s</span></div><label class="sr-only" for="seek">影像进度</label><input id="seek" type="range" min="0" max="2.75" value="0" step="0.0416666667"></div><div class="frame-steps"><button id="prev-frame" class="icon" aria-label="上一帧"><svg viewBox="0 0 24 24"><path d="M6 5v14M18 5 8 12l10 7Z"/></svg></button><button id="next-frame" class="icon" aria-label="下一帧"><svg viewBox="0 0 24 24"><path d="M18 5v14M6 5l10 7-10 7Z"/></svg></button></div><div class="speeds" role="group" aria-label="播放速度"><button data-speed="0.25" aria-pressed="false">¼×</button><button data-speed="0.5" aria-pressed="false">½×</button><button data-speed="1" class="active" aria-pressed="true">1×</button></div><button class="icon" id="immersive" aria-label="沉浸观看" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M9 3H3v6M15 3h6v6M3 15v6h6M21 15v6h-6"/></svg></button></div><div class="footer-meta"><span>空格 播放 / 暂停 <i>·</i> ← → 逐帧 <i>·</i> H 沉浸</span><span>程序动画 / 无音轨 <i>·</i> <button id="credits-footer">素材署名</button></span></div></footer>
+</div>
+<button id="exit-immersive">退出沉浸 <kbd>H</kbd></button>
+<dialog id="credits"><div class="eyebrow">CODE / SOURCES</div><h2>从代码到每一帧。</h2><p>人物骨骼、运动轨迹、肢体 IK、服装网格、发丝、跑道、栏架、灯光与跟拍镜头由本项目代码驱动，并在本机 Blender Cycles 中逐帧渲染。没有使用现成拍摄视频，也没有调用 AI 视频生成服务。</p><p>人物基础网格、骨骼权重、皮肤照片纹理、眼睛、头发底层与鞋型：MakeHuman，CC0。环境照明与远景：<a href="https://polyhaven.com/a/stadium_01" target="_blank" rel="noopener">Poly Haven Stadium 01</a>，Sergej Majboroda，CC0。它是全景照片贴图。</p><p>当前是2.75 秒、24fps 的代码渲染样片，包含程序关键姿态与 IK 近似动作，尚未使用专业跨栏动捕。人物仍存在三维渲染感；不能称为真人拍摄或已经达到真人实拍级。纹理和环境贴图含摄影素材。</p><p><a href="offline/hurdles-cycles.blend">下载可编辑 Blender 场景</a></p><button id="credits-close">关闭</button></dialog>
+<div class="error" id="error" hidden role="alert"></div><script>/*APP*/</script>
+</body></html>

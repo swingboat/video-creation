@@ -1,0 +1,11 @@
+{
+  "id": "HelloRemotion",
+  "slug": "hello-remotion",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "frames": 90,
+  "reviewFrame": 45,
+  "port": 3212,
+  "gl": null
+}

@@ -1,0 +1,814 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Buckets new" [ref=e36] [cursor=pointer]:
+              - /url: /storage
+              - img [ref=e37]
+              - text: Buckets
+              - generic [ref=e41]: new
+          - listitem [ref=e42]:
+            - link "Docs" [ref=e43] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e44]
+              - text: Docs
+          - listitem [ref=e48]:
+            - link "Pricing" [ref=e49] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e50]:
+            - generic [ref=e51]:
+              - button [ref=e52] [cursor=pointer]:
+                - img [ref=e53]
+              - navigation [ref=e58]:
+                - list [ref=e59]:
+                  - listitem [ref=e60]:
+                    - generic [ref=e61]: Website
+                    - list [ref=e62]:
+                      - listitem [ref=e63]:
+                        - link "Tasks" [ref=e64] [cursor=pointer]:
+                          - /url: /tasks
+                          - img [ref=e65]
+                          - generic: Tasks
+                      - listitem [ref=e68]:
+                        - link "HuggingChat" [ref=e69] [cursor=pointer]:
+                          - /url: /chat
+                          - img [ref=e70]
+                          - generic: HuggingChat
+                      - listitem [ref=e73]:
+                        - link "Collections" [ref=e74] [cursor=pointer]:
+                          - /url: /collections
+                          - img [ref=e75]
+                          - generic: Collections
+                      - listitem [ref=e79]:
+                        - link "Languages" [ref=e80] [cursor=pointer]:
+                          - /url: /languages
+                          - img [ref=e81]
+                          - generic: Languages
+                      - listitem [ref=e83]:
+                        - link "Organizations" [ref=e84] [cursor=pointer]:
+                          - /url: /organizations
+                          - img [ref=e85]
+                          - generic: Organizations
+                  - listitem [ref=e90]:
+                    - generic [ref=e91]: Community
+                    - list [ref=e92]:
+                      - listitem [ref=e93]:
+                        - link "Blog" [ref=e94] [cursor=pointer]:
+                          - /url: /blog
+                          - img [ref=e95]
+                          - generic: Blog
+                      - listitem [ref=e97]:
+                        - link "Posts" [ref=e98] [cursor=pointer]:
+                          - /url: /posts
+                          - img [ref=e99]
+                          - generic: Posts
+                      - listitem [ref=e101]:
+                        - link "Daily Papers" [ref=e102] [cursor=pointer]:
+                          - /url: /papers
+                          - img [ref=e103]
+                          - generic: Daily Papers
+                      - listitem [ref=e106]:
+                        - link "Hardware" [ref=e107] [cursor=pointer]:
+                          - /url: /hardware
+                          - img [ref=e108]
+                          - generic: Hardware
+                      - listitem [ref=e111]:
+                        - link "Learn" [ref=e112] [cursor=pointer]:
+                          - /url: /learn
+                          - img [ref=e113]
+                          - generic: Learn
+                      - listitem [ref=e119]:
+                        - link "Discord" [ref=e120] [cursor=pointer]:
+                          - /url: /join/discord
+                          - img [ref=e121]
+                          - generic: Discord
+                      - listitem [ref=e123]:
+                        - link "Forum" [ref=e124] [cursor=pointer]:
+                          - /url: https://discuss.huggingface.co/
+                          - img [ref=e125]
+                          - generic: Forum
+                      - listitem [ref=e127]:
+                        - link "GitHub" [ref=e128] [cursor=pointer]:
+                          - /url: https://github.com/huggingface
+                          - img [ref=e129]
+                          - generic: GitHub
+                  - listitem [ref=e131]:
+                    - generic [ref=e132]: Solutions
+                    - list [ref=e133]:
+                      - listitem [ref=e134]:
+                        - link "Team & Enterprise" [ref=e135] [cursor=pointer]:
+                          - /url: /enterprise
+                          - img [ref=e136]
+                          - generic: Team & Enterprise
+                      - listitem [ref=e138]:
+                        - link "Hugging Face PRO" [ref=e139] [cursor=pointer]:
+                          - /url: /pro
+                          - img [ref=e140]
+                          - generic: Hugging Face PRO
+                      - listitem [ref=e142]:
+                        - link "Enterprise Support" [ref=e143] [cursor=pointer]:
+                          - /url: /support
+                          - img [ref=e144]
+                          - generic: Enterprise Support
+                      - listitem [ref=e147]:
+                        - link "Inference Providers" [ref=e148] [cursor=pointer]:
+                          - /url: /inference/models
+                          - img [ref=e149]
+                          - generic: Inference Providers
+                      - listitem [ref=e152]:
+                        - link "Inference Endpoints" [ref=e153] [cursor=pointer]:
+                          - /url: /inference-endpoints
+                          - img [ref=e154]
+                          - generic: Inference Endpoints
+                      - listitem [ref=e157]:
+                        - link "Storage Buckets" [ref=e158] [cursor=pointer]:
+                          - /url: /storage
+                          - img [ref=e159]
+                          - generic: Storage Buckets
+          - listitem [ref=e163]:
+            - separator [ref=e164]
+          - listitem [ref=e165]:
+            - link "Log In" [ref=e166] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e167]:
+            - link "Sign Up" [ref=e168] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e169]:
+    - generic [ref=e172]:
+      - heading "openai / whisper-small Like 611 Follow OpenAI 42.8k" [level=1] [ref=e173]:
+        - generic [ref=e174]:
+          - link [ref=e178] [cursor=pointer]:
+            - /url: /openai
+          - link "openai" [ref=e182] [cursor=pointer]:
+            - /url: /openai
+          - generic [ref=e183]: /
+        - generic [ref=e184]:
+          - link "whisper-small" [ref=e185] [cursor=pointer]:
+            - /url: /openai/whisper-small
+          - button "Copy model name to clipboard" [ref=e186] [cursor=pointer]:
+            - img [ref=e187]
+        - generic [ref=e191]:
+          - button "Like" [ref=e194] [cursor=pointer]:
+            - img [ref=e195]
+            - generic [ref=e197]: Like
+          - button "611" [ref=e198] [cursor=pointer]
+        - generic [ref=e200]:
+          - button "Follow OpenAI" [ref=e201] [cursor=pointer]:
+            - generic [ref=e202]: Follow
+            - generic [ref=e203]: OpenAI
+          - button "42.8k" [ref=e204] [cursor=pointer]
+      - generic [ref=e205]:
+        - link "Automatic Speech Recognition" [ref=e206] [cursor=pointer]:
+          - /url: /models?pipeline_tag=automatic-speech-recognition
+          - generic [ref=e207]:
+            - img [ref=e209]
+            - generic [ref=e211]: Automatic Speech Recognition
+        - link "Transformers" [ref=e212] [cursor=pointer]:
+          - /url: /models?library=transformers
+          - generic [ref=e213]:
+            - img [ref=e214]
+            - generic [ref=e225]: Transformers
+        - link "PyTorch" [ref=e226] [cursor=pointer]:
+          - /url: /models?library=pytorch
+          - generic [ref=e227]:
+            - img [ref=e228]
+            - generic [ref=e231]: PyTorch
+        - link "TensorFlow" [ref=e232] [cursor=pointer]:
+          - /url: /models?library=tf
+          - generic [ref=e233]:
+            - img [ref=e234]
+            - generic [ref=e239]: TensorFlow
+        - link "JAX" [ref=e240] [cursor=pointer]:
+          - /url: /models?library=jax
+          - generic [ref=e241]:
+            - img [ref=e242]
+            - generic [ref=e281]: JAX
+        - link "Safetensors" [ref=e282] [cursor=pointer]:
+          - /url: /models?library=safetensors
+          - generic [ref=e283]:
+            - img [ref=e284]
+            - generic [ref=e286]: Safetensors
+        - button "99 languages" [ref=e287] [cursor=pointer]:
+          - generic [ref=e288]:
+            - img [ref=e289]
+            - generic [ref=e291]: 99 languages
+        - link "whisper" [ref=e292] [cursor=pointer]:
+          - /url: /models?other=whisper
+          - generic [ref=e294]: whisper
+        - link "audio" [ref=e295] [cursor=pointer]:
+          - /url: /models?other=audio
+          - generic [ref=e297]: audio
+        - link "hf-asr-leaderboard" [ref=e298] [cursor=pointer]:
+          - /url: /models?other=hf-asr-leaderboard
+          - generic [ref=e300]: hf-asr-leaderboard
+        - link "Eval Results (legacy)" [ref=e301] [cursor=pointer]:
+          - /url: /models?other=model-index
+          - generic [ref=e302]:
+            - img [ref=e303]
+            - generic [ref=e307]: Eval Results (legacy)
+        - 'button "arxiv: 2212.04356" [ref=e309] [cursor=pointer]':
+          - generic [ref=e311]:
+            - img [ref=e312]
+            - generic [ref=e315]: "arxiv:"
+            - generic [ref=e316]: "2212.04356"
+        - 'button "License: apache-2.0" [ref=e319] [cursor=pointer]':
+          - generic [ref=e321]:
+            - img [ref=e322]
+            - generic [ref=e324]: "License:"
+            - generic [ref=e325]: apache-2.0
+      - generic [ref=e327]:
+        - generic [ref=e328]:
+          - link "Model card" [ref=e329] [cursor=pointer]:
+            - /url: /openai/whisper-small
+            - img [ref=e330]
+            - text: Model card
+          - link "Files and versions xet" [ref=e334] [cursor=pointer]:
+            - /url: /openai/whisper-small/tree/main
+            - img [ref=e335]
+            - generic [ref=e338]: Files and versions
+            - generic [ref=e341]:
+              - img [ref=e342]
+              - generic [ref=e345]: xet
+          - link "Community 54" [ref=e346] [cursor=pointer]:
+            - /url: /openai/whisper-small/discussions
+            - img [ref=e347]
+            - text: Community
+            - generic [ref=e350]: "54"
+        - generic [ref=e351]:
+          - button [ref=e354] [cursor=pointer]:
+            - img [ref=e355]
+          - generic [ref=e359]:
+            - button "Deploy" [ref=e361] [cursor=pointer]:
+              - img [ref=e362]
+              - text: Deploy
+              - img [ref=e365]
+            - dialog
+          - button "Copy to bucket new" [ref=e367] [cursor=pointer]:
+            - img [ref=e368]
+            - text: Copy to bucket
+            - generic [ref=e370]: new
+          - generic [ref=e371]:
+            - button "Use this model" [ref=e372] [cursor=pointer]:
+              - img [ref=e373]
+              - text: Use this model
+              - img [ref=e375]
+            - navigation [ref=e377]:
+              - heading "Instructions to use openai/whisper-small with libraries, inference providers, notebooks, and local apps. Follow these links to get started." [level=3] [ref=e378]
+              - list [ref=e379]:
+                - listitem [ref=e380]: Libraries
+                - listitem [ref=e381]:
+                  - link "Transformers" [ref=e382] [cursor=pointer]:
+                    - /url: /openai/whisper-small?library=transformers
+                    - img [ref=e383]
+                    - generic: Transformers
+                  - paragraph [ref=e394]: "How to use openai/whisper-small with Transformers:"
+                  - generic [ref=e395]: "# Use a pipeline as a high-level helper from transformers import pipeline pipe = pipeline(\"automatic-speech-recognition\", model=\"openai/whisper-small\")"
+                  - generic [ref=e396]: "# pip install -U transformers accelerate # Load model directly from transformers import AutoProcessor, AutoModelForSpeechSeq2Seq processor = AutoProcessor.from_pretrained(\"openai/whisper-small\") model = AutoModelForSpeechSeq2Seq.from_pretrained(\"openai/whisper-small\", device_map=\"auto\")"
+                - listitem [ref=e397]: Notebooks
+                - listitem [ref=e398]:
+                  - link "Google Colab" [ref=e399] [cursor=pointer]:
+                    - /url: /openai/whisper-small/colab
+                    - img [ref=e400]
+                    - generic: Google Colab
+                - listitem [ref=e406]:
+                  - link "Kaggle" [ref=e407] [cursor=pointer]:
+                    - /url: /openai/whisper-small/kaggle
+                    - img [ref=e408]
+                    - generic: Kaggle
+    - generic [ref=e411]:
+      - generic [ref=e413]:
+        - button [ref=e419] [cursor=pointer]:
+          - img [ref=e420]
+        - generic [ref=e422]:
+          - heading "Whisper" [level=1] [ref=e423]:
+            - link [ref=e424] [cursor=pointer]:
+              - /url: "#whisper"
+              - img [ref=e426]
+            - generic [ref=e428]: Whisper
+          - paragraph [ref=e429]:
+            - text: Whisper is a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data, Whisper models demonstrate a strong ability to generalise to many datasets and domains
+            - strong [ref=e430]: without
+            - text: the need for fine-tuning.
+          - paragraph [ref=e431]:
+            - text: Whisper was proposed in the paper
+            - link "Robust Speech Recognition via Large-Scale Weak Supervision" [ref=e432] [cursor=pointer]:
+              - /url: https://arxiv.org/abs/2212.04356
+            - text: by Alec Radford et al from OpenAI. The original code repository can be found
+            - link "here" [ref=e433] [cursor=pointer]:
+              - /url: https://github.com/openai/whisper
+            - text: .
+          - paragraph [ref=e434]:
+            - strong [ref=e435]: Disclaimer
+            - text: ": Content for this model card has partly been written by the Hugging Face team, and parts of it were copied and pasted from the original model card."
+          - heading "Model details" [level=2] [ref=e436]:
+            - link [ref=e437] [cursor=pointer]:
+              - /url: "#model-details"
+              - img [ref=e439]
+            - generic [ref=e441]: Model details
+          - paragraph [ref=e442]:
+            - text: Whisper is a Transformer based encoder-decoder model, also referred to as a
+            - emphasis [ref=e443]: sequence-to-sequence
+            - text: model. It was trained on 680k hours of labelled speech data annotated using large-scale weak supervision.
+          - paragraph [ref=e444]:
+            - text: The models were trained on either English-only data or multilingual data. The English-only models were trained on the task of speech recognition. The multilingual models were trained on both speech recognition and speech translation. For speech recognition, the model predicts transcriptions in the
+            - emphasis [ref=e445]: same
+            - text: language as the audio. For speech translation, the model predicts transcriptions to a
+            - emphasis [ref=e446]: different
+            - text: language to the audio.
+          - paragraph [ref=e447]:
+            - text: Whisper checkpoints come in five configurations of varying model sizes. The smallest four are trained on either English-only or multilingual data. The largest checkpoints are multilingual only. All ten of the pre-trained checkpoints are available on the
+            - link "Hugging Face Hub" [ref=e448] [cursor=pointer]:
+              - /url: https://huggingface.co/models?search=openai/whisper
+            - text: ". The checkpoints are summarised in the following table with links to the models on the Hub:"
+          - table [ref=e450]:
+            - rowgroup [ref=e451]:
+              - row "Size Parameters English-only Multilingual" [ref=e452]:
+                - columnheader "Size" [ref=e453]
+                - columnheader "Parameters" [ref=e454]
+                - columnheader "English-only" [ref=e455]
+                - columnheader "Multilingual" [ref=e456]
+            - rowgroup [ref=e457]:
+              - row "tiny 39 M ✓ ✓" [ref=e458]:
+                - cell "tiny" [ref=e459]
+                - cell "39 M" [ref=e460]
+                - cell "✓" [ref=e461]:
+                  - link "✓" [ref=e462] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-tiny.en
+                - cell "✓" [ref=e463]:
+                  - link "✓" [ref=e464] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-tiny
+              - row "base 74 M ✓ ✓" [ref=e465]:
+                - cell "base" [ref=e466]
+                - cell "74 M" [ref=e467]
+                - cell "✓" [ref=e468]:
+                  - link "✓" [ref=e469] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-base.en
+                - cell "✓" [ref=e470]:
+                  - link "✓" [ref=e471] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-base
+              - row "small 244 M ✓ ✓" [ref=e472]:
+                - cell "small" [ref=e473]
+                - cell "244 M" [ref=e474]
+                - cell "✓" [ref=e475]:
+                  - link "✓" [ref=e476] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-small.en
+                - cell "✓" [ref=e477]:
+                  - link "✓" [ref=e478] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-small
+              - row "medium 769 M ✓ ✓" [ref=e479]:
+                - cell "medium" [ref=e480]
+                - cell "769 M" [ref=e481]
+                - cell "✓" [ref=e482]:
+                  - link "✓" [ref=e483] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-medium.en
+                - cell "✓" [ref=e484]:
+                  - link "✓" [ref=e485] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-medium
+              - row "large 1550 M x ✓" [ref=e486]:
+                - cell "large" [ref=e487]
+                - cell "1550 M" [ref=e488]
+                - cell "x" [ref=e489]
+                - cell "✓" [ref=e490]:
+                  - link "✓" [ref=e491] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-large
+              - row "large-v2 1550 M x ✓" [ref=e492]:
+                - cell "large-v2" [ref=e493]
+                - cell "1550 M" [ref=e494]
+                - cell "x" [ref=e495]
+                - cell "✓" [ref=e496]:
+                  - link "✓" [ref=e497] [cursor=pointer]:
+                    - /url: https://huggingface.co/openai/whisper-large-v2
+          - heading "Usage" [level=1] [ref=e498]:
+            - link [ref=e499] [cursor=pointer]:
+              - /url: "#usage"
+              - img [ref=e501]
+            - generic [ref=e503]: Usage
+          - paragraph [ref=e504]:
+            - text: To transcribe audio samples, the model has to be used alongside a
+            - link "WhisperProcessor" [ref=e505] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/transformers/model_doc/whisper#transformers.WhisperProcessor
+              - code [ref=e506]: WhisperProcessor
+            - text: .
+          - paragraph [ref=e507]:
+            - text: The
+            - code [ref=e508]: WhisperProcessor
+            - text: "is used to:"
+          - list [ref=e509]:
+            - listitem [ref=e510]: Pre-process the audio inputs (converting them to log-Mel spectrograms for the model)
+            - listitem [ref=e511]: Post-process the model outputs (converting them from tokens to text)
+          - paragraph [ref=e512]: "The model is informed of which task to perform (transcription or translation) by passing the appropriate \"context tokens\". These context tokens are a sequence of tokens that are given to the decoder at the start of the decoding process, and take the following order:"
+          - list [ref=e513]:
+            - listitem [ref=e514]:
+              - text: The transcription always starts with the
+              - code [ref=e515]: <|startoftranscript|>
+              - text: token
+            - listitem [ref=e516]:
+              - text: The second token is the language token (e.g.
+              - code [ref=e517]: <|en|>
+              - text: for English)
+            - listitem [ref=e518]:
+              - text: "The third token is the \"task token\". It can take one of two values:"
+              - code [ref=e519]: <|transcribe|>
+              - text: for speech recognition or
+              - code [ref=e520]: <|translate|>
+              - text: for speech translation
+            - listitem [ref=e521]:
+              - text: In addition, a
+              - code [ref=e522]: <|notimestamps|>
+              - text: token is added if the model should not include timestamp prediction
+          - paragraph [ref=e523]: "Thus, a typical sequence of context tokens might look as follows:"
+          - generic [ref=e524]:
+            - code [ref=e526]: <|startoftranscript|> <|en|> <|transcribe|> <|notimestamps|>
+            - button [ref=e527] [cursor=pointer]:
+              - img [ref=e528]
+          - paragraph [ref=e532]: Which tells the model to decode in English, under the task of speech recognition, and not to predict timestamps.
+          - paragraph [ref=e533]: These tokens can either be forced or un-forced. If they are forced, the model is made to predict each token at each position. This allows one to control the output language and task for the Whisper model. If they are un-forced, the Whisper model will automatically predict the output langauge and task itself.
+          - paragraph [ref=e534]: "The context tokens can be set accordingly:"
+          - generic [ref=e535]:
+            - code [ref=e537]: model.config.forced_decoder_ids = WhisperProcessor.get_decoder_prompt_ids(language="english", task="transcribe")
+            - button [ref=e538] [cursor=pointer]:
+              - img [ref=e539]
+          - paragraph [ref=e543]: Which forces the model to predict in English under the task of speech recognition.
+          - heading "Transcription" [level=2] [ref=e544]:
+            - link [ref=e545] [cursor=pointer]:
+              - /url: "#transcription"
+              - img [ref=e547]
+            - generic [ref=e549]: Transcription
+          - heading "English to English" [level=3] [ref=e550]:
+            - link [ref=e551] [cursor=pointer]:
+              - /url: "#english-to-english"
+              - img [ref=e553]
+            - generic [ref=e555]: English to English
+          - paragraph [ref=e556]: In this example, the context tokens are 'unforced', meaning the model automatically predicts the output language (English) and task (transcribe).
+          - generic [ref=e557]:
+            - code [ref=e559]: ">>> from transformers import WhisperProcessor, WhisperForConditionalGeneration >>> from datasets import load_dataset >>> # load model and processor >>> processor = WhisperProcessor.from_pretrained(\"openai/whisper-small\") >>> model = WhisperForConditionalGeneration.from_pretrained(\"openai/whisper-small\") >>> model.config.forced_decoder_ids = None >>> # load dummy dataset and read audio files >>> ds = load_dataset(\"hf-internal-testing/librispeech_asr_dummy\", \"clean\", split=\"validation\") >>> sample = ds[0][\"audio\"] >>> input_features = processor(sample[\"array\"], sampling_rate=sample[\"sampling_rate\"], return_tensors=\"pt\").input_features >>> # generate token ids >>> predicted_ids = model.generate(input_features) >>> # decode token ids to text >>> transcription = processor.batch_decode(predicted_ids, skip_special_tokens=False) ['<|startoftranscript|><|en|><|transcribe|><|notimestamps|> Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.<|endoftext|>'] >>> transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True) [' Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.']"
+            - button [ref=e560] [cursor=pointer]:
+              - img [ref=e561]
+          - paragraph [ref=e565]:
+            - text: The context tokens can be removed from the start of the transcription by setting
+            - code [ref=e566]: skip_special_tokens=True
+            - text: .
+          - heading "French to French" [level=3] [ref=e567]:
+            - link [ref=e568] [cursor=pointer]:
+              - /url: "#french-to-french"
+              - img [ref=e570]
+            - generic [ref=e572]: French to French
+          - paragraph [ref=e573]: The following example demonstrates French to French transcription by setting the decoder ids appropriately.
+          - generic [ref=e574]:
+            - code [ref=e576]: ">>> from transformers import WhisperProcessor, WhisperForConditionalGeneration >>> from datasets import Audio, load_dataset >>> # load model and processor >>> processor = WhisperProcessor.from_pretrained(\"openai/whisper-small\") >>> model = WhisperForConditionalGeneration.from_pretrained(\"openai/whisper-small\") >>> forced_decoder_ids = processor.get_decoder_prompt_ids(language=\"french\", task=\"transcribe\") >>> # load streaming dataset and read first audio sample >>> ds = load_dataset(\"common_voice\", \"fr\", split=\"test\", streaming=True) >>> ds = ds.cast_column(\"audio\", Audio(sampling_rate=16_000)) >>> input_speech = next(iter(ds))[\"audio\"] >>> input_features = processor(input_speech[\"array\"], sampling_rate=input_speech[\"sampling_rate\"], return_tensors=\"pt\").input_features >>> # generate token ids >>> predicted_ids = model.generate(input_features, forced_decoder_ids=forced_decoder_ids) >>> # decode token ids to text >>> transcription = processor.batch_decode(predicted_ids) ['<|startoftranscript|><|fr|><|transcribe|><|notimestamps|> Un vrai travail intéressant va enfin être mené sur ce sujet.<|endoftext|>'] >>> transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True) [' Un vrai travail intéressant va enfin être mené sur ce sujet.']"
+            - button [ref=e577] [cursor=pointer]:
+              - img [ref=e578]
+          - heading "Translation" [level=2] [ref=e582]:
+            - link [ref=e583] [cursor=pointer]:
+              - /url: "#translation"
+              - img [ref=e585]
+            - generic [ref=e587]: Translation
+          - paragraph [ref=e588]: Setting the task to "translate" forces the Whisper model to perform speech translation.
+          - heading "French to English" [level=3] [ref=e589]:
+            - link [ref=e590] [cursor=pointer]:
+              - /url: "#french-to-english"
+              - img [ref=e592]
+            - generic [ref=e594]: French to English
+          - generic [ref=e595]:
+            - code [ref=e597]: ">>> from transformers import WhisperProcessor, WhisperForConditionalGeneration >>> from datasets import Audio, load_dataset >>> # load model and processor >>> processor = WhisperProcessor.from_pretrained(\"openai/whisper-small\") >>> model = WhisperForConditionalGeneration.from_pretrained(\"openai/whisper-small\") >>> forced_decoder_ids = processor.get_decoder_prompt_ids(language=\"french\", task=\"translate\") >>> # load streaming dataset and read first audio sample >>> ds = load_dataset(\"common_voice\", \"fr\", split=\"test\", streaming=True) >>> ds = ds.cast_column(\"audio\", Audio(sampling_rate=16_000)) >>> input_speech = next(iter(ds))[\"audio\"] >>> input_features = processor(input_speech[\"array\"], sampling_rate=input_speech[\"sampling_rate\"], return_tensors=\"pt\").input_features >>> # generate token ids >>> predicted_ids = model.generate(input_features, forced_decoder_ids=forced_decoder_ids) >>> # decode token ids to text >>> transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True) [' A very interesting work, we will finally be given on this subject.']"
+            - button [ref=e598] [cursor=pointer]:
+              - img [ref=e599]
+          - heading "Evaluation" [level=2] [ref=e603]:
+            - link [ref=e604] [cursor=pointer]:
+              - /url: "#evaluation"
+              - img [ref=e606]
+            - generic [ref=e608]: Evaluation
+          - paragraph [ref=e609]:
+            - text: This code snippet shows how to evaluate Whisper Small on
+            - link "LibriSpeech test-clean" [ref=e610] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/librispeech_asr
+            - text: ":"
+          - generic [ref=e611]:
+            - code [ref=e613]: ">>> from datasets import load_dataset >>> from transformers import WhisperForConditionalGeneration, WhisperProcessor >>> import torch >>> from evaluate import load >>> librispeech_test_clean = load_dataset(\"librispeech_asr\", \"clean\", split=\"test\") >>> processor = WhisperProcessor.from_pretrained(\"openai/whisper-small\") >>> model = WhisperForConditionalGeneration.from_pretrained(\"openai/whisper-small\").to(\"cuda\") >>> def map_to_pred(batch): >>> audio = batch[\"audio\"] >>> input_features = processor(audio[\"array\"], sampling_rate=audio[\"sampling_rate\"], return_tensors=\"pt\").input_features >>> batch[\"reference\"] = processor.tokenizer._normalize(batch['text']) >>> >>> with torch.no_grad(): >>> predicted_ids = model.generate(input_features.to(\"cuda\"))[0] >>> transcription = processor.decode(predicted_ids) >>> batch[\"prediction\"] = processor.tokenizer._normalize(transcription) >>> return batch >>> result = librispeech_test_clean.map(map_to_pred) >>> wer = load(\"wer\") >>> print(100 * wer.compute(references=result[\"reference\"], predictions=result[\"prediction\"])) 3.432213777886737"
+            - button [ref=e614] [cursor=pointer]:
+              - img [ref=e615]
+          - heading "Long-Form Transcription" [level=2] [ref=e619]:
+            - link [ref=e620] [cursor=pointer]:
+              - /url: "#long-form-transcription"
+              - img [ref=e622]
+            - generic [ref=e624]: Long-Form Transcription
+          - paragraph [ref=e625]:
+            - text: The Whisper model is intrinsically designed to work on audio samples of up to 30s in duration. However, by using a chunking algorithm, it can be used to transcribe audio samples of up to arbitrary length. This is possible through Transformers
+            - link "pipeline" [ref=e626] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/transformers/main_classes/pipelines#transformers.AutomaticSpeechRecognitionPipeline
+              - code [ref=e627]: pipeline
+            - text: method. Chunking is enabled by setting
+            - code [ref=e628]: chunk_length_s=30
+            - text: when instantiating the pipeline. With chunking enabled, the pipeline can be run with batched inference. It can also be extended to predict sequence level timestamps by passing
+            - code [ref=e629]: return_timestamps=True
+            - text: ":"
+          - generic [ref=e630]:
+            - code [ref=e632]: ">>> import torch >>> from transformers import pipeline >>> from datasets import load_dataset >>> device = \"cuda:0\" if torch.cuda.is_available() else \"cpu\" >>> pipe = pipeline( >>> \"automatic-speech-recognition\", >>> model=\"openai/whisper-small\", >>> chunk_length_s=30, >>> device=device, >>> ) >>> ds = load_dataset(\"hf-internal-testing/librispeech_asr_dummy\", \"clean\", split=\"validation\") >>> sample = ds[0][\"audio\"] >>> prediction = pipe(sample.copy(), batch_size=8)[\"text\"] \" Mr. Quilter is the apostle of the middle classes, and we are glad to welcome his gospel.\" >>> # we can also return timestamps for the predictions >>> prediction = pipe(sample.copy(), batch_size=8, return_timestamps=True)[\"chunks\"] [{'text': ' Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.', 'timestamp': (0.0, 5.44)}]"
+            - button [ref=e633] [cursor=pointer]:
+              - img [ref=e634]
+          - paragraph [ref=e638]:
+            - text: Refer to the blog post
+            - link "ASR Chunking" [ref=e639] [cursor=pointer]:
+              - /url: https://huggingface.co/blog/asr-chunking
+            - text: for more details on the chunking algorithm.
+          - heading "Fine-Tuning" [level=2] [ref=e640]:
+            - link [ref=e641] [cursor=pointer]:
+              - /url: "#fine-tuning"
+              - img [ref=e643]
+            - generic [ref=e645]: Fine-Tuning
+          - paragraph [ref=e646]:
+            - text: The pre-trained Whisper model demonstrates a strong ability to generalise to different datasets and domains. However, its predictive capabilities can be improved further for certain languages and tasks through
+            - emphasis [ref=e647]: fine-tuning
+            - text: . The blog post
+            - link "Fine-Tune Whisper with 🤗 Transformers" [ref=e648] [cursor=pointer]:
+              - /url: https://huggingface.co/blog/fine-tune-whisper
+            - text: provides a step-by-step guide to fine-tuning the Whisper model with as little as 5 hours of labelled data.
+          - heading "Evaluated Use" [level=3] [ref=e649]:
+            - link [ref=e650] [cursor=pointer]:
+              - /url: "#evaluated-use"
+              - img [ref=e652]
+            - generic [ref=e654]: Evaluated Use
+          - paragraph [ref=e655]: The primary intended users of these models are AI researchers studying robustness, generalization, capabilities, biases, and constraints of the current model. However, Whisper is also potentially quite useful as an ASR solution for developers, especially for English speech recognition. We recognize that once models are released, it is impossible to restrict access to only “intended” uses or to draw reasonable guidelines around what is or is not research.
+          - paragraph [ref=e656]: The models are primarily trained and evaluated on ASR and speech translation to English tasks. They show strong ASR results in ~10 languages. They may exhibit additional capabilities, particularly if fine-tuned on certain tasks like voice activity detection, speaker classification, or speaker diarization but have not been robustly evaluated in these areas. We strongly recommend that users perform robust evaluations of the models in a particular context and domain before deploying them.
+          - paragraph [ref=e657]: In particular, we caution against using Whisper models to transcribe recordings of individuals taken without their consent or purporting to use these models for any kind of subjective classification. We recommend against use in high-risk domains like decision-making contexts, where flaws in accuracy can lead to pronounced flaws in outcomes. The models are intended to transcribe and translate speech, use of the model for classification is not only not evaluated but also not appropriate, particularly to infer human attributes.
+          - heading "Training Data" [level=2] [ref=e658]:
+            - link [ref=e659] [cursor=pointer]:
+              - /url: "#training-data"
+              - img [ref=e661]
+            - generic [ref=e663]: Training Data
+          - paragraph [ref=e664]: The models are trained on 680,000 hours of audio and the corresponding transcripts collected from the internet. 65% of this data (or 438,000 hours) represents English-language audio and matched English transcripts, roughly 18% (or 126,000 hours) represents non-English audio and English transcripts, while the final 17% (or 117,000 hours) represents non-English audio and the corresponding transcript. This non-English data represents 98 different languages.
+          - paragraph [ref=e665]:
+            - text: As discussed in
+            - link "the accompanying paper" [ref=e666] [cursor=pointer]:
+              - /url: https://cdn.openai.com/papers/whisper.pdf
+            - text: ", we see that performance on transcription in a given language is directly correlated with the amount of training data we employ in that language."
+          - heading "Performance and Limitations" [level=2] [ref=e667]:
+            - link [ref=e668] [cursor=pointer]:
+              - /url: "#performance-and-limitations"
+              - img [ref=e670]
+            - generic [ref=e672]: Performance and Limitations
+          - paragraph [ref=e673]: Our studies show that, over many existing ASR systems, the models exhibit improved robustness to accents, background noise, technical language, as well as zero shot translation from multiple languages into English; and that accuracy on speech recognition and translation is near the state-of-the-art level.
+          - paragraph [ref=e674]: However, because the models are trained in a weakly supervised manner using large-scale noisy data, the predictions may include texts that are not actually spoken in the audio input (i.e. hallucination). We hypothesize that this happens because, given their general knowledge of language, the models combine trying to predict the next word in audio with trying to transcribe the audio itself.
+          - paragraph [ref=e675]:
+            - text: Our models perform unevenly across languages, and we observe lower accuracy on low-resource and/or low-discoverability languages or languages where we have less training data. The models also exhibit disparate performance on different accents and dialects of particular languages, which may include higher word error rate across speakers of different genders, races, ages, or other demographic criteria. Our full evaluation results are presented in
+            - link "the paper accompanying this release" [ref=e676] [cursor=pointer]:
+              - /url: https://cdn.openai.com/papers/whisper.pdf
+            - text: .
+          - paragraph [ref=e677]:
+            - text: In addition, the sequence-to-sequence architecture of the model makes it prone to generating repetitive texts, which can be mitigated to some degree by beam search and temperature scheduling but not perfectly. Further analysis on these limitations are provided in
+            - link "the paper" [ref=e678] [cursor=pointer]:
+              - /url: https://cdn.openai.com/papers/whisper.pdf
+            - text: . It is likely that this behavior and hallucinations may be worse on lower-resource and/or lower-discoverability languages.
+          - heading "Broader Implications" [level=2] [ref=e679]:
+            - link [ref=e680] [cursor=pointer]:
+              - /url: "#broader-implications"
+              - img [ref=e682]
+            - generic [ref=e684]: Broader Implications
+          - paragraph [ref=e685]: We anticipate that Whisper models’ transcription capabilities may be used for improving accessibility tools. While Whisper models cannot be used for real-time transcription out of the box – their speed and size suggest that others may be able to build applications on top of them that allow for near-real-time speech recognition and translation. The real value of beneficial applications built on top of Whisper models suggests that the disparate performance of these models may have real economic implications.
+          - paragraph [ref=e686]: There are also potential dual use concerns that come with releasing Whisper. While we hope the technology will be used primarily for beneficial purposes, making ASR technology more accessible could enable more actors to build capable surveillance technologies or scale up existing surveillance efforts, as the speed and accuracy allow for affordable automatic transcription and translation of large volumes of audio communication. Moreover, these models may have some capabilities to recognize specific individuals out of the box, which in turn presents safety concerns related both to dual use and disparate performance. In practice, we expect that the cost of transcription is not the limiting factor of scaling up surveillance projects.
+          - heading "BibTeX entry and citation info" [level=3] [ref=e687]:
+            - link [ref=e688] [cursor=pointer]:
+              - /url: "#bibtex-entry-and-citation-info"
+              - img [ref=e690]
+            - generic [ref=e692]: BibTeX entry and citation info
+          - generic [ref=e693]:
+            - code [ref=e695]: "@misc{radford2022whisper, doi = {10.48550/ARXIV.2212.04356}, url = {https://arxiv.org/abs/2212.04356}, author = {Radford, Alec and Kim, Jong Wook and Xu, Tao and Brockman, Greg and McLeavey, Christine and Sutskever, Ilya}, title = {Robust Speech Recognition via Large-Scale Weak Supervision}, publisher = {arXiv}, year = {2022}, copyright = {arXiv.org perpetual, non-exclusive license} }"
+            - button [ref=e696] [cursor=pointer]:
+              - img [ref=e697]
+      - generic [ref=e701]:
+        - generic [ref=e702]:
+          - generic [ref=e703]:
+            - term [ref=e704]: Downloads last month
+            - definition [ref=e705]: 3,254,187
+          - img [ref=e707]
+        - generic [ref=e712]:
+          - generic [ref=e713]:
+            - img [ref=e714]
+            - text: Safetensors
+            - link [ref=e716] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/safetensors
+              - img [ref=e717]
+          - generic [ref=e721]:
+            - generic [ref=e722]:
+              - generic [ref=e723]: Model size
+              - generic [ref=e724]: 0.2B params
+            - generic [ref=e725]:
+              - generic [ref=e726]: Tensor type
+              - generic [ref=e727]: F32
+            - button "Files info" [ref=e729] [cursor=pointer]:
+              - img [ref=e730]
+              - paragraph [ref=e732]: Files info
+        - generic [ref=e736]:
+          - generic [ref=e738]:
+            - img [ref=e739]
+            - generic [ref=e741]: Inference Providers
+            - link "NEW" [ref=e742] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/inference-providers
+          - link "Automatic Speech Recognition" [ref=e745] [cursor=pointer]:
+            - /url: /tasks/automatic-speech-recognition
+            - generic [ref=e746]:
+              - img [ref=e747]
+              - generic [ref=e749]: Automatic Speech Recognition
+          - generic [ref=e750]:
+            - generic [ref=e751]: This model isn't deployed by any Inference Provider.
+            - link "🙋 15 Ask for provider support" [ref=e752] [cursor=pointer]:
+              - /url: /spaces/huggingface/InferenceSupport/discussions/1291
+              - generic [ref=e753]:
+                - generic [ref=e754]: 🙋
+                - generic [ref=e755]: "15"
+              - generic [ref=e756]: Ask for provider support
+        - heading "Model tree for openai/whisper-small" [level=2] [ref=e758]:
+          - img [ref=e759]
+          - text: Model tree for
+          - generic [ref=e762]: openai/whisper-small
+          - link [ref=e763] [cursor=pointer]:
+            - /url: /docs/hub/model-cards#specifying-a-base-model
+            - img [ref=e764]
+        - generic [ref=e769]:
+          - generic [ref=e770]:
+            - img [ref=e773]
+            - generic [ref=e775]: Adapters
+            - link "306 models" [ref=e777] [cursor=pointer]:
+              - /url: /models?other=base_model:adapter:openai/whisper-small
+          - generic [ref=e778]:
+            - img [ref=e781]
+            - generic [ref=e783]: Finetunes
+            - link "3795 models" [ref=e785] [cursor=pointer]:
+              - /url: /models?other=base_model:finetune:openai/whisper-small
+          - generic [ref=e786]:
+            - img [ref=e789]
+            - generic [ref=e791]: Quantizations
+            - link "265 models" [ref=e793] [cursor=pointer]:
+              - /url: /models?other=base_model:quantized:openai/whisper-small
+        - heading "Spaces using openai/whisper-small 100" [level=2] [ref=e795]:
+          - img [ref=e796]
+          - text: Spaces using
+          - generic [ref=e802]: openai/whisper-small
+          - generic [ref=e803]: "100"
+        - navigation [ref=e805]:
+          - link "📈 tardellirs/model-pulse" [ref=e806] [cursor=pointer]:
+            - /url: /spaces/tardellirs/model-pulse
+            - generic [ref=e807]: 📈
+            - generic [ref=e808]: tardellirs/model-pulse
+            - img [ref=e809]
+          - link "📊 mteb/leaderboard" [ref=e813] [cursor=pointer]:
+            - /url: /spaces/mteb/leaderboard
+            - generic [ref=e814]: 📊
+            - generic [ref=e815]: mteb/leaderboard
+          - link "🟩 embedl/hfviewer" [ref=e816] [cursor=pointer]:
+            - /url: /spaces/embedl/hfviewer
+            - generic [ref=e817]: 🟩
+            - generic [ref=e818]: embedl/hfviewer
+          - link "🎤🔄 Plachta/Seed-VC" [ref=e819] [cursor=pointer]:
+            - /url: /spaces/Plachta/Seed-VC
+            - generic [ref=e820]: 🎤🔄
+            - generic [ref=e821]: Plachta/Seed-VC
+          - link "🥇 elmresearchcenter/open_universal_arabic_asr_leaderboard" [ref=e822] [cursor=pointer]:
+            - /url: /spaces/elmresearchcenter/open_universal_arabic_asr_leaderboard
+            - generic [ref=e823]: 🥇
+            - generic [ref=e824]: elmresearchcenter/open_universal_arabic_asr_leaderboard
+          - link "🧮 aquanode/gpu-vram-calculator" [ref=e825] [cursor=pointer]:
+            - /url: /spaces/aquanode/gpu-vram-calculator
+            - generic [ref=e826]: 🧮
+            - generic [ref=e827]: aquanode/gpu-vram-calculator
+          - link "🎙️ BreezeBlue/breeze-tts-2-demo" [ref=e828] [cursor=pointer]:
+            - /url: /spaces/BreezeBlue/breeze-tts-2-demo
+            - generic [ref=e829]: 🎙️
+            - generic [ref=e830]: BreezeBlue/breeze-tts-2-demo
+            - img [ref=e831]
+          - link "🏆 RyeAI/danish-asr-leaderboard" [ref=e835] [cursor=pointer]:
+            - /url: /spaces/RyeAI/danish-asr-leaderboard
+            - generic [ref=e836]: 🏆
+            - generic [ref=e837]: RyeAI/danish-asr-leaderboard
+          - button "+ 92 Spaces" [ref=e838] [cursor=pointer]
+        - heading "Collection including openai/whisper-small" [level=2] [ref=e840]:
+          - img [ref=e841]
+          - text: Collection including
+          - generic [ref=e845]: openai/whisper-small
+        - article [ref=e848]:
+          - link "Whisper Release Collection Whisper includes both English-only and multilingual checkpoints for ASR and ST, ranging from 38M params for the tiny models to 1.5B params for large. • 12 items • Updated Sep 13, 2023 • 166" [ref=e849] [cursor=pointer]:
+            - /url: /collections/openai/whisper-release
+            - generic "Whisper Release" [ref=e850]:
+              - heading "Whisper Release" [level=4] [ref=e851]
+              - generic [ref=e852]:
+                - img [ref=e853]
+                - text: Collection
+            - generic [ref=e857]:
+              - generic [ref=e858]: Whisper includes both English-only and multilingual checkpoints for ASR and ST, ranging from 38M params for the tiny models to 1.5B params for large.
+              - generic [ref=e859]: •
+              - generic [ref=e860]: 12 items
+              - generic [ref=e861]: •
+              - generic [ref=e862]:
+                - text: Updated
+                - time [ref=e863]: Sep 13, 2023
+              - generic [ref=e864]: •
+              - img [ref=e865]
+              - text: "166"
+        - heading "Paper for openai/whisper-small" [level=2] [ref=e869]:
+          - img [ref=e870]
+          - text: Paper for
+          - generic [ref=e873]: openai/whisper-small
+        - article [ref=e875]:
+          - link "Robust Speech Recognition via Large-Scale Weak Supervision Paper • 2212.04356 • Published Dec 6, 2022 • 56" [ref=e876] [cursor=pointer]:
+            - /url: /papers/2212.04356
+            - generic "arxiv:2212.04356" [ref=e877]:
+              - heading "Robust Speech Recognition via Large-Scale Weak Supervision" [level=4] [ref=e878]
+            - generic [ref=e879]:
+              - img [ref=e880]
+              - text: Paper
+              - generic [ref=e883]: •
+              - text: "2212.04356"
+              - generic [ref=e884]: •
+              - generic [ref=e885]:
+                - text: Published
+                - time [ref=e886]: Dec 6, 2022
+              - generic [ref=e887]: •
+              - img [ref=e888]
+              - text: "56"
+        - generic [ref=e890]:
+          - heading "Evaluation results" [level=2] [ref=e892]:
+            - img [ref=e893]
+            - text: Evaluation results
+            - link [ref=e897] [cursor=pointer]:
+              - /url: https://huggingface.co/docs/hub/eval-results
+              - img [ref=e898]
+          - list [ref=e902]:
+            - listitem [ref=e903]:
+              - 'generic "Automatic Speech Recognition: Test WER on LibriSpeech (clean)" [ref=e904]': Test WER on LibriSpeech (clean)
+              - link "test set" [ref=e905] [cursor=pointer]:
+                - /url: /openai/whisper-small/blob/main/README.md
+              - link "self-reported" [ref=e906] [cursor=pointer]:
+                - /url: /openai/whisper-small/blob/main/README.md
+              - generic [ref=e908]: "3.432"
+            - listitem [ref=e909]:
+              - 'generic "Automatic Speech Recognition: Test WER on LibriSpeech (other)" [ref=e910]': Test WER on LibriSpeech (other)
+              - link "test set" [ref=e911] [cursor=pointer]:
+                - /url: /openai/whisper-small/blob/main/README.md
+              - link "self-reported" [ref=e912] [cursor=pointer]:
+                - /url: /openai/whisper-small/blob/main/README.md
+              - generic [ref=e914]: "7.628"
+            - listitem [ref=e915]:
+              - 'generic "Automatic Speech Recognition: Test WER on Common Voice 11.0" [ref=e916]': Test WER on Common Voice 11.0
+              - link "test set" [ref=e917] [cursor=pointer]:
+                - /url: /openai/whisper-small/blob/main/README.md
+              - link "self-reported" [ref=e918] [cursor=pointer]:
+                - /url: /openai/whisper-small/blob/main/README.md
+              - generic [ref=e920]: "87.300"
+            - listitem [ref=e921]:
+              - 'generic "Automatic Speech Recognition: Wer on Common Voice 13.0" [ref=e922]': Wer on Common Voice 13.0
+              - link "test set" [ref=e923] [cursor=pointer]:
+                - /url: /openai/whisper-small/blob/main/README.md
+              - link "self-reported" [ref=e924] [cursor=pointer]:
+                - /url: /openai/whisper-small/blob/main/README.md
+              - generic [ref=e926]: "125.698"
+  - contentinfo [ref=e927]:
+    - navigation [ref=e928]:
+      - button "System theme" [ref=e931] [cursor=pointer]:
+        - img [ref=e932]
+        - text: System theme
+      - link "TOS" [ref=e937] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e938] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e939] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e940] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e941] [cursor=pointer]:
+        - /url: /
+        - img [ref=e942]
+      - link "Models" [ref=e956] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e957] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e958] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e959] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e960] [cursor=pointer]:
+        - /url: /docs

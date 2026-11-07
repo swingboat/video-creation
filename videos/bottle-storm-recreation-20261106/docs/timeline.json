@@ -1,0 +1,43 @@
+{
+  "fps": 24,
+  "duration": 20,
+  "frames": 480,
+  "lightning_seconds": [
+    2.05,
+    3.84,
+    5.02,
+    6.92,
+    8.27,
+    9.48,
+    10.84,
+    12.02
+  ],
+  "thunder_delay_seconds": 0.09,
+  "modes": [
+    [
+      0.17,
+      2.5,
+      0.38,
+      2.6
+    ],
+    [
+      0.08,
+      4.2,
+      -1.2,
+      3.7
+    ],
+    [
+      0.045,
+      7.3,
+      2.0,
+      5.1
+    ]
+  ],
+  "version": "bunny-artist",
+  "room_flash_scale": 0.3,
+  "bottle_flash_scale": 0.72,
+  "fish_revision": "v3",
+  "frame_dir": "outputs/frames-fish",
+  "picture": "bunny-fish-picture.mp4",
+  "final_video": "outputs/bottle-storm-bunny-fish-20s.mp4"
+}

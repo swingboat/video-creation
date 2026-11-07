@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Professions/Sports_Male_04/Export/Sports_Male_04.fbx",
+    "file": "sources/research/realism-v7/rocketbox/Sports_Male_04.fbx",
+    "bytes": 536704,
+    "sha256": "55489f2b44880684c304be589667d12ebf86d35ee513f2e09ff3fbd9783f9f4c"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Professions/Sports_Male_04/Textures/m026_body_color.tga",
+    "file": "sources/research/realism-v7/rocketbox/m026_body_color.tga",
+    "bytes": 12582956,
+    "sha256": "18450cf17ca22c11dcadac16bb27a546a264b8d17a70721b58e311cd23e7d04c"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Professions/Sports_Male_04/Textures/m026_body_normal.tga",
+    "file": "sources/research/realism-v7/rocketbox/m026_body_normal.tga",
+    "bytes": 12582956,
+    "sha256": "72f04c200856cb7f46f131ef6ec50cc0e93e762c422a57eeca0f395bdbb6dcac"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Professions/Sports_Male_04/Textures/m026_body_specular.tga",
+    "file": "sources/research/realism-v7/rocketbox/m026_body_specular.tga",
+    "bytes": 12582956,
+    "sha256": "32c7758fdcce6985a397ed9966581571745a764eb4b3dd8d0ba9f9bb75bed976"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Professions/Sports_Male_04/Textures/m026_head_color.tga",
+    "file": "sources/research/realism-v7/rocketbox/m026_head_color.tga",
+    "bytes": 12582956,
+    "sha256": "2c46317dbf7c1f746b3d13ed51bef2c1e04241896ab6ce44390d17b3c8199d4f"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Professions/Sports_Male_04/Textures/m026_head_normal.tga",
+    "file": "sources/research/realism-v7/rocketbox/m026_head_normal.tga",
+    "bytes": 12582956,
+    "sha256": "71813447c4ed2069d68ae1a6a230b0bb7f415b933a8d1c839f1a68fee2d0e7f4"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/Assets/Avatars/Professions/Sports_Male_04/Textures/m026_head_specular.tga",
+    "file": "sources/research/realism-v7/rocketbox/m026_head_specular.tga",
+    "bytes": 12582956,
+    "sha256": "8bf16491b65877a2ac39dc3743365c1532c9acf435fc2cf041eb8cff1c736850"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/LICENSE.md",
+    "file": "sources/research/realism-v7/rocketbox/LICENSE.md",
+    "bytes": 1066,
+    "sha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/microsoft/Microsoft-Rocketbox/master/README.md",
+    "file": "sources/research/realism-v7/rocketbox/README.md",
+    "bytes": 5345,
+    "sha256": "bcf8013e3d5817a5dee5d1770b9943278189cd76b2d9b2abc243db99b703ecd6"
+  }
+]

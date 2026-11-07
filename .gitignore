@@ -1,0 +1,47 @@
+# Dependencies, caches, and local tool environments
+node_modules/
+.cache/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+
+# Rendered output, previews, build artifacts, and logs
+outputs/
+out/
+dist/
+build/
+coverage/
+*.log
+*.blend[1-9]
+
+# Keep video files and downloadable archives out of Git
+*.mp4
+*.m4v
+*.mov
+*.webm
+*.mkv
+*.avi
+*.mpg
+*.mpeg
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Downloaded third-party repositories used for research
+/research/*/repos/
+
+# Machine-local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store

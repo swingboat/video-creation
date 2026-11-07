@@ -1,0 +1,11 @@
+{
+  "id": "SeasideSkate",
+  "slug": "seaside-skate",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 300,
+  "reviewFrame": 165,
+  "port": 3214,
+  "gl": null
+}

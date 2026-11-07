@@ -1,0 +1,174 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.63",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "base",
+      "rotation": [
+        0,
+        0.5080631971359253,
+        0,
+        0.8613198399543762
+      ],
+      "translation": [
+        2.8627896308898926,
+        0.43122389912605286,
+        -1.343447208404541
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "shadow-catcher",
+      "scale": [
+        3.44760799407959,
+        3.8366587162017822,
+        5.2226362228393555
+      ],
+      "translation": [
+        0.5289599299430847,
+        0,
+        -1.3630889654159546
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.010",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "TEXCOORD_0": 1
+          },
+          "indices": 2
+        }
+      ]
+    },
+    {
+      "name": "Plane.003",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 361,
+      "max": [
+        2.998032808303833,
+        1.735707402229309,
+        0.42787599563598633
+      ],
+      "min": [
+        -6.43744421005249,
+        -0.43103519082069397,
+        -5.418774604797363
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 361,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 753,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1.0948634147644043,
+        2.9802322387695312e-08,
+        0.9911128282546997
+      ],
+      "min": [
+        -1.2866486310958862,
+        2.9802322387695312e-08,
+        -1.317358374595642
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 4,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 6,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4332,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2888,
+      "byteOffset": 4332,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1506,
+      "byteOffset": 7220,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48,
+      "byteOffset": 8728,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 32,
+      "byteOffset": 8776,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12,
+      "byteOffset": 8808,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 8820
+    }
+  ]
+}

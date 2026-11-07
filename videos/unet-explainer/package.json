@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "name": "unet-explainer",
+  "description": "Independent Remotion project: UnetExplainer",
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.534",
+    "@remotion/fonts": "4.0.534",
+    "@remotion/media": "4.0.534",
+    "@remotion/captions": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "node scripts/remotion.mjs studio src/index.ts --no-open --port=3210",
+    "compositions": "node scripts/remotion.mjs compositions src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render": "node scripts/remotion.mjs render src/index.ts UnetExplainer outputs/unet-explainer.mp4 --codec=h264 --audio-codec=aac --pixel-format=yuv420p --concurrency=2",
+    "still": "node scripts/remotion.mjs still src/index.ts UnetExplainer outputs/checks/current.png --frame=3454",
+    "check": "npm run typecheck && node scripts/check-isolation.mjs",
+    "pack": "python3 scripts/package-project.py",
+    "prepare:unet": "python3 scripts/prepare-unet-audio.py",
+    "render:unet": "node scripts/remotion.mjs render src/index.ts UnetExplainer outputs/unet-explainer.mp4 --codec=h264 --audio-codec=aac --pixel-format=yuv420p --concurrency=2",
+    "review:unet": "node scripts/render-unet-review.mjs --sample",
+    "verify:unet": "node scripts/verify-unet.mjs",
+    "verify": "node scripts/verify-media.mjs"
+  }
+}

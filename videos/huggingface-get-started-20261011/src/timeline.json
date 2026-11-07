@@ -1,0 +1,759 @@
+{
+  "fps": 30,
+  "durationInFrames": 6805,
+  "scenes": [
+    {
+      "id": "intro",
+      "title": "Hugging Face 是什么？",
+      "startFrame": 0,
+      "durationInFrames": 429,
+      "utterances": [
+        {
+          "text": "想试试人工智能，却不知道从哪里开始？",
+          "startMs": 600,
+          "endMs": 4320
+        },
+        {
+          "text": "Hugging Face，把模型、数据和应用汇集在一个网站。",
+          "startMs": 4670,
+          "endMs": 9350
+        },
+        {
+          "text": "今天，带你从认识它，到真正用起来。",
+          "startMs": 9700,
+          "endMs": 13300
+        }
+      ],
+      "captions": [
+        {
+          "text": "想试试人工智能，却不知道从哪里开始？",
+          "startMs": 600,
+          "endMs": 4320,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "Hugging Face，把模型、数据和应用汇集在一个网站。",
+          "startMs": 4670,
+          "endMs": 9350,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "今天，带你从认识它，到真正用起来。",
+          "startMs": 9700,
+          "endMs": 13300,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "title": "记住三个入口",
+      "startFrame": 429,
+      "durationInFrames": 745,
+      "utterances": [
+        {
+          "text": "先记住三个入口。",
+          "startMs": 600,
+          "endMs": 2616
+        },
+        {
+          "text": "Models，是模型库：找能完成任务的人工智能模型。",
+          "startMs": 2966,
+          "endMs": 7478
+        },
+        {
+          "text": "Datasets，是数据集：找训练和评测用的材料。",
+          "startMs": 7828,
+          "endMs": 12364
+        },
+        {
+          "text": "Spaces，是应用体验区：打开网页，就能试用别人做好的应用。",
+          "startMs": 12714,
+          "endMs": 18258
+        },
+        {
+          "text": "模型像引擎，数据像教材，应用像一辆可以直接开的车。",
+          "startMs": 18608,
+          "endMs": 23816
+        }
+      ],
+      "captions": [
+        {
+          "text": "先记住三个入口。",
+          "startMs": 600,
+          "endMs": 2616,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "Models，是模型库：找能完成任务的人工智能模型。",
+          "startMs": 2966,
+          "endMs": 7478,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "Datasets，是数据集：找训练和评测用的材料。",
+          "startMs": 7828,
+          "endMs": 12364,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "Spaces，是应用体验区：打开网页，",
+          "startMs": 12714,
+          "endMs": 16112,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "就能试用别人做好的应用。",
+          "startMs": 16112,
+          "endMs": 18258,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "模型像引擎，数据像教材，应用像一辆可以直接开的车。",
+          "startMs": 18608,
+          "endMs": 23816,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "title": "从首页开始",
+      "startFrame": 1174,
+      "durationInFrames": 530,
+      "utterances": [
+        {
+          "text": "打开 huggingface 点 co，顶部就有这三个入口。",
+          "startMs": 600,
+          "endMs": 4464
+        },
+        {
+          "text": "先浏览公开资源；需要收藏、申请访问或发布作品时，再注册登录。",
+          "startMs": 4814,
+          "endMs": 11390
+        },
+        {
+          "text": "不要先追热门。先想清楚：你要让人工智能做什么？",
+          "startMs": 11740,
+          "endMs": 16636
+        }
+      ],
+      "captions": [
+        {
+          "text": "打开 huggingface 点 co，顶部就有这三个入口。",
+          "startMs": 600,
+          "endMs": 4464,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "先浏览公开资源；需要收藏、申请访问或发布作品时，再注册登录。",
+          "startMs": 4814,
+          "endMs": 11390,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "不要先追热门。先想清楚：你要让人工智能做什么？",
+          "startMs": 11740,
+          "endMs": 16636,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "spaces",
+      "title": "第一步：先体验一个应用",
+      "startFrame": 1704,
+      "durationInFrames": 836,
+      "utterances": [
+        {
+          "text": "比如，你想把一段录音转成文字。",
+          "startMs": 600,
+          "endMs": 3792
+        },
+        {
+          "text": "点击 Spaces，搜索 whisper，找到语音转文字应用。",
+          "startMs": 4142,
+          "endMs": 8702
+        },
+        {
+          "text": "在 Whisper Web 选择音频。中文录音打开设置，启用多语言、选择中文，任务选转录。",
+          "startMs": 9052,
+          "endMs": 16924
+        },
+        {
+          "text": "等待处理后，查看和核对文字结果。",
+          "startMs": 17274,
+          "endMs": 20826
+        },
+        {
+          "text": "应用可能需要下载模型，或者排队；不是每个演示都一直可用。",
+          "startMs": 21176,
+          "endMs": 26840
+        }
+      ],
+      "captions": [
+        {
+          "text": "比如，你想把一段录音转成文字。",
+          "startMs": 600,
+          "endMs": 3792,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "点击 Spaces，搜索 whisper，",
+          "startMs": 4142,
+          "endMs": 7231,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "找到语音转文字应用。",
+          "startMs": 7231,
+          "endMs": 8702,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "在 Whisper Web 选择音频。中文录音打开设置，",
+          "startMs": 9052,
+          "endMs": 13950,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "启用多语言、选择中文，任务选转录。",
+          "startMs": 13950,
+          "endMs": 16924,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "等待处理后，查看和核对文字结果。",
+          "startMs": 17274,
+          "endMs": 20826,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "应用可能需要下载模型，或者排队；不是每个演示都一直可用。",
+          "startMs": 21176,
+          "endMs": 26840,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "title": "第二步：找到背后的模型",
+      "startFrame": 2540,
+      "durationInFrames": 719,
+      "utterances": [
+        {
+          "text": "想知道背后用的是什么？进入 Models。",
+          "startMs": 600,
+          "endMs": 4728
+        },
+        {
+          "text": "按任务筛选 Automatic Speech Recognition，也就是自动语音识别。",
+          "startMs": 5078,
+          "endMs": 10358
+        },
+        {
+          "text": "再结合语言、使用许可和模型说明，缩小范围。",
+          "startMs": 10708,
+          "endMs": 15316
+        },
+        {
+          "text": "这里以 openai 的 whisper-small 为例。下载量能帮你发现模型，但不能代替效果测试。",
+          "startMs": 15666,
+          "endMs": 22938
+        }
+      ],
+      "captions": [
+        {
+          "text": "想知道背后用的是什么？进入 Models。",
+          "startMs": 600,
+          "endMs": 4728,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "按任务筛选 Automatic Speech Recognition，",
+          "startMs": 5078,
+          "endMs": 9185,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "也就是自动语音识别。",
+          "startMs": 9185,
+          "endMs": 10358,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "再结合语言、使用许可和模型说明，缩小范围。",
+          "startMs": 10708,
+          "endMs": 15316,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "这里以 openai 的 whisper-small 为例。",
+          "startMs": 15666,
+          "endMs": 19944,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "下载量能帮你发现模型，但不能代替效果测试。",
+          "startMs": 19944,
+          "endMs": 22938,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "card",
+      "title": "模型页，重点看这三处",
+      "startFrame": 3259,
+      "durationInFrames": 813,
+      "utterances": [
+        {
+          "text": "打开模型页，重点看三处。",
+          "startMs": 600,
+          "endMs": 3552
+        },
+        {
+          "text": "Model card 是说明书：看用途、支持语言、示例和局限。",
+          "startMs": 3902,
+          "endMs": 9326
+        },
+        {
+          "text": "Files 是文件区：模型权重、配置和分词器等文件都在这里。",
+          "startMs": 9676,
+          "endMs": 15268
+        },
+        {
+          "text": "Use this model 是接入入口：查看相应工具的使用代码。",
+          "startMs": 15618,
+          "endMs": 20322
+        },
+        {
+          "text": "先确认许可和硬件要求；部分模型还需要申请访问权限。",
+          "startMs": 20672,
+          "endMs": 26072
+        }
+      ],
+      "captions": [
+        {
+          "text": "打开模型页，重点看三处。",
+          "startMs": 600,
+          "endMs": 3552,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "Model card 是说明书：",
+          "startMs": 3902,
+          "endMs": 6701,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "看用途、支持语言、示例和局限。",
+          "startMs": 6701,
+          "endMs": 9326,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "Files 是文件区：模型权重、配置和分词器等文件都在这里。",
+          "startMs": 9676,
+          "endMs": 15268,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "Use this model 是接入入口：",
+          "startMs": 15618,
+          "endMs": 18611,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "查看相应工具的使用代码。",
+          "startMs": 18611,
+          "endMs": 20322,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "先确认许可和硬件要求；部分模型还需要申请访问权限。",
+          "startMs": 20672,
+          "endMs": 26072,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Datasets：数据是什么样？",
+      "startFrame": 4072,
+      "durationInFrames": 709,
+      "utterances": [
+        {
+          "text": "Datasets 用来找数据，不是直接使用人工智能的聊天窗口。",
+          "startMs": 600,
+          "endMs": 5856
+        },
+        {
+          "text": "打开一个数据集，先看数据卡，了解来源、字段和使用许可。",
+          "startMs": 6206,
+          "endMs": 11990
+        },
+        {
+          "text": "再用 Data Studio 预览样本和训练、测试等划分。",
+          "startMs": 12340,
+          "endMs": 16972
+        },
+        {
+          "text": "有些数据集支持直接预览；受限数据需要申请权限。",
+          "startMs": 17322,
+          "endMs": 22602
+        }
+      ],
+      "captions": [
+        {
+          "text": "Datasets 用来找数据，",
+          "startMs": 600,
+          "endMs": 3143,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "不是直接使用人工智能的聊天窗口。",
+          "startMs": 3143,
+          "endMs": 5856,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "打开一个数据集，先看数据卡，了解来源、字段和使用许可。",
+          "startMs": 6206,
+          "endMs": 11990,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "再用 Data Studio 预览样本和训练、测试等划分。",
+          "startMs": 12340,
+          "endMs": 16972,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "有些数据集支持直接预览；受限数据需要申请权限。",
+          "startMs": 17322,
+          "endMs": 22602,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "routes",
+      "title": "选一条适合你的使用路径",
+      "startFrame": 4781,
+      "durationInFrames": 854,
+      "utterances": [
+        {
+          "text": "接下来，按需求选一条路。",
+          "startMs": 600,
+          "endMs": 3336
+        },
+        {
+          "text": "只想体验：继续使用 Spaces，通常不需要写代码。",
+          "startMs": 3686,
+          "endMs": 8462
+        },
+        {
+          "text": "想在自己电脑运行：下载模型，按说明安装工具，并检查内存或显存。",
+          "startMs": 8812,
+          "endMs": 15556
+        },
+        {
+          "text": "想接入自己的应用：使用支持该模型的推理服务，调用 API，并查看计费。",
+          "startMs": 15906,
+          "endMs": 22794
+        },
+        {
+          "text": "公开可下载，不等于运行模型不花算力成本。",
+          "startMs": 23144,
+          "endMs": 27440
+        }
+      ],
+      "captions": [
+        {
+          "text": "接下来，按需求选一条路。",
+          "startMs": 600,
+          "endMs": 3336,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "只想体验：继续使用 Spaces，通常不需要写代码。",
+          "startMs": 3686,
+          "endMs": 8462,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "想在自己电脑运行：下载模型，按说明安装工具，",
+          "startMs": 8812,
+          "endMs": 13598,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "并检查内存或显存。",
+          "startMs": 13598,
+          "endMs": 15556,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "想接入自己的应用：使用支持该模型的推理服务，调用 API，",
+          "startMs": 15906,
+          "endMs": 21613,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "并查看计费。",
+          "startMs": 21613,
+          "endMs": 22794,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "公开可下载，不等于运行模型不花算力成本。",
+          "startMs": 23144,
+          "endMs": 27440,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "学会了，还能分享",
+      "startFrame": 5635,
+      "durationInFrames": 531,
+      "utterances": [
+        {
+          "text": "Hugging Face 也是一个协作社区。",
+          "startMs": 600,
+          "endMs": 3480
+        },
+        {
+          "text": "你可以在 Community 提问，用 Collections 整理资源，或上传自己的模型和数据。",
+          "startMs": 3830,
+          "endMs": 10526
+        },
+        {
+          "text": "会开发之后，还能用 Gradio 或 Docker，把应用发布成自己的 Space。",
+          "startMs": 10876,
+          "endMs": 16684
+        }
+      ],
+      "captions": [
+        {
+          "text": "Hugging Face 也是一个协作社区。",
+          "startMs": 600,
+          "endMs": 3480,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "你可以在 Community 提问，",
+          "startMs": 3830,
+          "endMs": 6290,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "用 Collections 整理资源，",
+          "startMs": 6290,
+          "endMs": 8886,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "或上传自己的模型和数据。",
+          "startMs": 8886,
+          "endMs": 10526,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "会开发之后，还能用 Gradio 或 Docker，",
+          "startMs": 10876,
+          "endMs": 14471,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "把应用发布成自己的 Space。",
+          "startMs": 14471,
+          "endMs": 16684,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "title": "现在就可以开始",
+      "startFrame": 6166,
+      "durationInFrames": 639,
+      "utterances": [
+        {
+          "text": "现在，试着完成你的第一次体验。",
+          "startMs": 600,
+          "endMs": 3792
+        },
+        {
+          "text": "打开 Spaces，搜索 whisper，转录一段不含隐私的短录音。",
+          "startMs": 4142,
+          "endMs": 9206
+        },
+        {
+          "text": "再打开对应模型页，找到说明书、文件区和使用入口。",
+          "startMs": 9556,
+          "endMs": 14740
+        },
+        {
+          "text": "记住：Spaces 先体验，Models 找能力，Datasets 看数据。",
+          "startMs": 15090,
+          "endMs": 20274
+        }
+      ],
+      "captions": [
+        {
+          "text": "现在，试着完成你的第一次体验。",
+          "startMs": 600,
+          "endMs": 3792,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "打开 Spaces，搜索 whisper，",
+          "startMs": 4142,
+          "endMs": 7270,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "转录一段不含隐私的短录音。",
+          "startMs": 7270,
+          "endMs": 9206,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "再打开对应模型页，找到说明书、文件区和使用入口。",
+          "startMs": 9556,
+          "endMs": 14740,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "记住：Spaces 先体验，Models 找能力，",
+          "startMs": 15090,
+          "endMs": 18501,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": "Datasets 看数据。",
+          "startMs": 18501,
+          "endMs": 20274,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ]
+    }
+  ]
+}

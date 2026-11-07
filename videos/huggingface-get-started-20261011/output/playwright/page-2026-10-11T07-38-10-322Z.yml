@@ -1,0 +1,70 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Spaces Hugging Face's logo Xenova / whisper-web Like 1.3k Running" [level=1] [ref=e7]:
+        - generic [ref=e8]:
+          - link "Spaces" [ref=e9] [cursor=pointer]:
+            - /url: /spaces
+          - link "Hugging Face's logo" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img "Hugging Face's logo" [ref=e11]
+        - separator [ref=e12]
+        - generic [ref=e13]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /Xenova
+          - link "Xenova" [ref=e21] [cursor=pointer]:
+            - /url: /Xenova
+          - generic [ref=e22]: /
+        - generic [ref=e23]:
+          - link "whisper-web" [ref=e24] [cursor=pointer]:
+            - /url: /spaces/Xenova/whisper-web
+          - button "Copy space name to clipboard" [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+        - generic [ref=e30]:
+          - button "Like" [ref=e33] [cursor=pointer]:
+            - img [ref=e34]
+            - generic [ref=e36]: Like
+          - button "1.3k" [ref=e37] [cursor=pointer]
+        - generic [ref=e41] [cursor=pointer]: Running
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - link "App" [ref=e45] [cursor=pointer]:
+            - /url: /spaces/Xenova/whisper-web
+            - img [ref=e46]
+            - text: App
+          - link "Files" [ref=e50] [cursor=pointer]:
+            - /url: /spaces/Xenova/whisper-web/tree/main
+            - img [ref=e51]
+            - generic [ref=e54]: Files
+          - link "Community 19" [ref=e55] [cursor=pointer]:
+            - /url: /spaces/Xenova/whisper-web/discussions
+            - img [ref=e56]
+            - text: Community
+            - generic [ref=e59]: "19"
+        - button [ref=e62] [cursor=pointer]:
+          - img [ref=e63]
+          - img [ref=e67]
+  - main [ref=e69]:
+    - iframe [active] [ref=e71]:
+      - generic [ref=f24e3]:
+        - generic [ref=f24e4]:
+          - heading "Whisper Web" [level=1] [ref=f24e47]
+          - heading "ML-powered speech recognition directly in your browser" [level=2] [ref=f24e48]
+          - generic [ref=f24e8]:
+            - button "From URL" [ref=f24e49] [cursor=pointer]:
+              - img [ref=f24e11]
+              - generic [ref=f24e13]: From URL
+            - button "From file" [ref=f24e50] [cursor=pointer]:
+              - img [ref=f24e17]
+              - generic [ref=f24e19]: From file
+            - button "Record" [ref=f24e51] [cursor=pointer]:
+              - img [ref=f24e23]
+              - generic [ref=f24e25]: Record
+          - generic [ref=f24e55]:
+            - button "Transcribe Audio" [ref=f24e56] [cursor=pointer]
+            - button [ref=f24e58] [cursor=pointer]:
+              - img [ref=f24e60]
+        - generic [ref=f24e28]:
+          - text: Made with
+          - link "🤗 Transformers.js" [ref=f24e63] [cursor=pointer]:
+            - /url: https://github.com/xenova/transformers.js
