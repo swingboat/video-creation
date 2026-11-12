@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "04a5a240-0dfd-4518-b92a-b0b9f6a4b56e",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "/Users/huyin/Swingboat/video-creation/videos/bottle-storm-recreation-20261106/docs/.archify/architecture-bottle-storm-20261109/candidate.json",
+  "output": "/Users/huyin/Swingboat/video-creation/videos/bottle-storm-recreation-20261106/docs/.archify/architecture-bottle-storm-20261109/production-flow.html",
+  "specification": {
+    "sha256": "3be47b7131970304452a042a4189613a1d508acac6224d4617fb9d56ff0cd494",
+    "bytes": 8572
+  },
+  "artifact": {
+    "sha256": "6ee902cd720616bbc4f83a2bdecc60bb4c9f58ad7e058af13df4cbe054b9804f",
+    "bytes": 851007
+  }
+}

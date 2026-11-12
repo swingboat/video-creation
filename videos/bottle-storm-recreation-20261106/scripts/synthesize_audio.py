@@ -1,6 +1,7 @@
 """Deterministic stereo ocean, wind, rain and delayed rolling thunder (NumPy/SciPy)."""
 from pathlib import Path
 import json
+import math
 import numpy as np
 from scipy import signal
 from scipy.io import wavfile

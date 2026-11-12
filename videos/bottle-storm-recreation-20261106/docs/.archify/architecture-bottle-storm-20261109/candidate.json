@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "瓶中风暴从模型到成片的制作流程",
+    "locale": "zh-CN",
+    "output": "docs/.archify/architecture-bottle-storm-20261109/production-flow.html",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/swingboat/video-creation.git",
+      "revision": "0e5b7e6abe4e97a74f8002894881332e5cd396a3",
+      "link_mode": "web"
+    }
+  },
+  "components": [
+    {
+      "id": "author",
+      "type": "backend",
+      "label": "Python 建模与动作",
+      "sublabel": "几何 材质 约束 关键帧",
+      "pos": [
+        40,
+        40
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/build_scene.py",
+          "line": 72,
+          "end_line": 115
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/animate_bunny.py",
+          "line": 175,
+          "end_line": 238
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/upgrade_fish.py",
+          "line": 135,
+          "end_line": 183
+        }
+      ]
+    },
+    {
+      "id": "blend",
+      "type": "database",
+      "label": "Blender 原生场景",
+      "sublabel": "bottle-storm.blend",
+      "pos": [
+        350,
+        40
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/upgrade_fish.py",
+          "line": 179,
+          "end_line": 185
+        }
+      ]
+    },
+    {
+      "id": "cycles",
+      "type": "backend",
+      "label": "Cycles 渲染",
+      "sublabel": "Metal GPU 光线计算",
+      "pos": [
+        660,
+        40
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/run.mjs",
+          "line": 31,
+          "end_line": 33
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/render_scene.py",
+          "line": 17,
+          "end_line": 34
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/render_scene.py",
+          "line": 60,
+          "end_line": 73
+        }
+      ]
+    },
+    {
+      "id": "png",
+      "type": "database",
+      "label": "逐帧 PNG",
+      "sublabel": "480 帧 1280×720",
+      "pos": [
+        970,
+        40
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/render_scene.py",
+          "line": 41,
+          "end_line": 46
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/render_scene.py",
+          "line": 60,
+          "end_line": 73
+        }
+      ]
+    },
+    {
+      "id": "encoder",
+      "type": "backend",
+      "label": "FFmpeg 编码",
+      "sublabel": "H.264 画面视频",
+      "pos": [
+        970,
+        260
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/run.mjs",
+          "line": 35,
+          "end_line": 35
+        }
+      ]
+    },
+    {
+      "id": "picture",
+      "type": "database",
+      "label": "无声画面 MP4",
+      "sublabel": "bunny-fish-picture.mp4",
+      "pos": [
+        660,
+        260
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/run.mjs",
+          "line": 13,
+          "end_line": 15
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/run.mjs",
+          "line": 35,
+          "end_line": 35
+        }
+      ]
+    },
+    {
+      "id": "remotion",
+      "type": "backend",
+      "label": "Remotion 合成",
+      "sublabel": "React 时间轴与音量",
+      "pos": [
+        350,
+        260
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/src/Composition.tsx",
+          "line": 7,
+          "end_line": 14
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/src/Composition.tsx",
+          "line": 19,
+          "end_line": 38
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/run.mjs",
+          "line": 36,
+          "end_line": 36
+        }
+      ]
+    },
+    {
+      "id": "movie",
+      "type": "database",
+      "label": "最终 MP4",
+      "sublabel": "20 秒 24fps 含声音",
+      "pos": [
+        40,
+        260
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/src/Composition.tsx",
+          "line": 7,
+          "end_line": 14
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/run.mjs",
+          "line": 15,
+          "end_line": 15
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/run.mjs",
+          "line": 36,
+          "end_line": 36
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "type": "backend",
+      "label": "NumPy 与 SciPy",
+      "sublabel": "风雨 雷声 脚步 画笔",
+      "pos": [
+        660,
+        480
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/synthesize_audio.py",
+          "line": 16,
+          "end_line": 43
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/synthesize_audio.py",
+          "line": 44,
+          "end_line": 61
+        }
+      ]
+    },
+    {
+      "id": "wav",
+      "type": "database",
+      "label": "立体声 WAV",
+      "sublabel": "48kHz 音轨",
+      "pos": [
+        350,
+        480
+      ],
+      "size": [
+        170,
+        64
+      ],
+      "sources": [
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/synthesize_audio.py",
+          "line": 9,
+          "end_line": 13
+        },
+        {
+          "path": "videos/bottle-storm-recreation-20261106/scripts/synthesize_audio.py",
+          "line": 57,
+          "end_line": 63
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "author-blend",
+      "from": "author",
+      "to": "blend",
+      "label": "保存场景",
+      "variant": "emphasis"
+    },
+    {
+      "id": "blend-cycles",
+      "from": "blend",
+      "to": "cycles",
+      "label": "读取场景",
+      "variant": "emphasis"
+    },
+    {
+      "id": "cycles-png",
+      "from": "cycles",
+      "to": "png",
+      "label": "逐帧渲染",
+      "variant": "emphasis"
+    },
+    {
+      "id": "png-encoder",
+      "from": "png",
+      "to": "encoder",
+      "label": "图像序列",
+      "variant": "emphasis"
+    },
+    {
+      "id": "encoder-picture",
+      "from": "encoder",
+      "to": "picture",
+      "label": "编码画面",
+      "variant": "emphasis"
+    },
+    {
+      "id": "picture-remotion",
+      "from": "picture",
+      "to": "remotion",
+      "label": "读取画面",
+      "variant": "emphasis"
+    },
+    {
+      "id": "remotion-movie",
+      "from": "remotion",
+      "to": "movie",
+      "label": "导出成片",
+      "variant": "emphasis"
+    },
+    {
+      "id": "audio-wav",
+      "from": "audio",
+      "to": "wav",
+      "label": "写入音轨"
+    },
+    {
+      "id": "wav-remotion",
+      "from": "wav",
+      "to": "remotion",
+      "label": "读取声音"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "模型与场景",
+      "items": [
+        "模型提供几何形状；Object 保存位置 旋转和缩放。",
+        "材质绑定到几何；灯光和相机决定画面中的外观。"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "动作关联",
+      "items": [
+        "小兔脚步与抓握使用世界坐标接触点和双段 IK。",
+        "鱼的路径控制整体运动，形态关键帧控制摆尾。",
+        "船体姿态与水面共用同一组波浪高度。"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "文件与时间",
+      "items": [
+        "Blender 使用第 1 到 480 帧，时间为 (frame−1)/24。",
+        "Remotion 使用第 0 到 479 帧，画面与音轨在同一时间轴合成。",
+        "节点来源链接固定到本项目制作代码提交。"
+      ]
+    }
+  ]
+}

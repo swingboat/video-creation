@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "architecture",
+  "quality": "showcase",
+  "specification": {
+    "path": "/Users/huyin/Swingboat/video-creation/videos/bottle-storm-recreation-20261106/docs/.archify/architecture-bottle-storm-20261109/candidate.json",
+    "sha256": "3be47b7131970304452a042a4189613a1d508acac6224d4617fb9d56ff0cd494",
+    "bytes": 8572
+  },
+  "artifact": {
+    "path": "/Users/huyin/Swingboat/video-creation/videos/bottle-storm-recreation-20261106/docs/.archify/architecture-bottle-storm-20261109/production-flow.html",
+    "sha256": "6ee902cd720616bbc4f83a2bdecc60bb4c9f58ad7e058af13df4cbe054b9804f",
+    "bytes": 851007
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "/Users/huyin/Swingboat/video-creation/videos/bottle-storm-recreation-20261106/docs/.archify/architecture-bottle-storm-20261109/production-flow.finalize.json",
+    "summaryReceipt": "/Users/huyin/Swingboat/video-creation/videos/bottle-storm-recreation-20261106/docs/.archify/architecture-bottle-storm-20261109/production-flow.finalize-summary.json",
+    "browserCheckReceipt": "/Users/huyin/Swingboat/video-creation/videos/bottle-storm-recreation-20261106/docs/.archify/architecture-bottle-storm-20261109/production-flow.browser-check.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.2.0",
+    "availableVersion": "3.2.0",
+    "releaseNotes": null,
+    "checkedAt": "2026-11-09T06:49:12.588Z",
+    "source": "network",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 2784,
+  "browserCheck": {
+    "requested": true,
+    "ran": true
+  }
+}
