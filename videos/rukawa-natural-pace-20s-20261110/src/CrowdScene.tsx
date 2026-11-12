@@ -1,0 +1,2 @@
+import React from 'react';import {Video} from '@remotion/media';import {staticFile,useVideoConfig} from 'remotion';import {clipsReady} from './media-status';import {PendingFrame} from './PendingFrame';
+export const CrowdScene=()=>{const {fps}=useVideoConfig();return clipsReady.crowd?<Video src={staticFile('video/crowd.mp4')} premountFor={fps} volume={.65} style={{width:'100%',height:'100%',objectFit:'cover'}}/>:<PendingFrame image="art/crowd-scene.png"/>;};

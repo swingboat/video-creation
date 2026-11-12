@@ -1,0 +1,124 @@
+[
+  {
+    "repo": "dgrauet/ltx-2.3-mlx-q4",
+    "revision": "f306259444116d71927188af2fbbf7fdc1a8089a",
+    "local": ".cache/models/ltx-q4",
+    "files": [
+      {
+        "name": "LICENSE",
+        "bytes": 19197
+      },
+      {
+        "name": "config.json",
+        "bytes": 951
+      },
+      {
+        "name": "connector.safetensors",
+        "bytes": 6344495512
+      },
+      {
+        "name": "embedded_config.json",
+        "bytes": 7234
+      },
+      {
+        "name": "quantize_config.json",
+        "bytes": 100
+      },
+      {
+        "name": "spatial_upscaler_x2_v1_1.safetensors",
+        "bytes": 995745061
+      },
+      {
+        "name": "spatial_upscaler_x2_v1_1_config.json",
+        "bytes": 275
+      },
+      {
+        "name": "split_model.json",
+        "bytes": 1893
+      },
+      {
+        "name": "transformer-distilled-1.1.safetensors",
+        "bytes": 11322002285
+      },
+      {
+        "name": "vae_decoder.safetensors",
+        "bytes": 814349531
+      },
+      {
+        "name": "vae_encoder.safetensors",
+        "bytes": 637885319
+      },
+      {
+        "name": "audio_vae.safetensors",
+        "bytes": 106509048
+      },
+      {
+        "name": "vocoder.safetensors",
+        "bytes": 258313851
+      }
+    ]
+  },
+  {
+    "repo": "mlx-community/gemma-3-12b-it-4bit",
+    "revision": "86cc6a8dedbc456dd0e4af01a9d09f396f77e558",
+    "local": ".cache/models/gemma-q4",
+    "files": [
+      {
+        "name": "README.md",
+        "bytes": 945
+      },
+      {
+        "name": "added_tokens.json",
+        "bytes": 35
+      },
+      {
+        "name": "chat_template.json",
+        "bytes": 1615
+      },
+      {
+        "name": "config.json",
+        "bytes": 1141
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 192
+      },
+      {
+        "name": "model-00001-of-00002.safetensors",
+        "bytes": 5367455313
+      },
+      {
+        "name": "model-00002-of-00002.safetensors",
+        "bytes": 2661219935
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 108605
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 570
+      },
+      {
+        "name": "processor_config.json",
+        "bytes": 70
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 662
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 33384568
+      },
+      {
+        "name": "tokenizer.model",
+        "bytes": 4689074
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 1157007
+      }
+    ]
+  }
+]

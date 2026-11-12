@@ -1,0 +1,25 @@
+{
+  "name": "rukawa-natural-pace-20s",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.541",
+    "@remotion/media": "4.0.541",
+    "remotion": "4.0.541",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "node scripts/run.mjs dev",
+    "render": "node scripts/run.mjs render",
+    "still": "node scripts/run.mjs still",
+    "check": "node scripts/run.mjs check",
+    "package": "node scripts/run.mjs package"
+  },
+  "type": "module"
+}

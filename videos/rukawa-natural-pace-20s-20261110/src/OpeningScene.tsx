@@ -1,0 +1,2 @@
+import React from 'react';import {Video} from '@remotion/media';import {staticFile,useVideoConfig} from 'remotion';import {clipsReady} from './media-status';import {PendingFrame} from './PendingFrame';
+export const OpeningScene=()=>{const {fps}=useVideoConfig();return clipsReady.close?<Video src={staticFile('video/close.mp4')} premountFor={fps} volume={.8} style={{width:'100%',height:'100%',objectFit:'cover'}}/>:<PendingFrame image="art/close-scene.png"/>;};

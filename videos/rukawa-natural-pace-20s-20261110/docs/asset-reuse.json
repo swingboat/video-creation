@@ -1,0 +1,5 @@
+{
+  "method": "Independent filesystem copies; APFS copy-on-write where supported, distinct inodes, no hard or symbolic links between videos.",
+  "source_video_id": "rukawa-anime-redraw-20s-20261110",
+  "runtime_references_source_project": false
+}

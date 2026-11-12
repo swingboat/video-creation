@@ -1,0 +1,2 @@
+import React from 'react';import {Video} from '@remotion/media';import {staticFile,useVideoConfig} from 'remotion';import {clipsReady} from './media-status';import {PendingFrame} from './PendingFrame';
+export const CelebrationScene=()=>{const {fps}=useVideoConfig();return clipsReady.celebrate?<Video src={staticFile('video/celebrate.mp4')} premountFor={fps} volume={.85} style={{width:'100%',height:'100%',objectFit:'cover'}}/>:<PendingFrame image="art/celebrate-grounded-v2.png"/>;};
