@@ -1,0 +1,14 @@
+{
+  "frames": 150,
+  "fps": 30,
+  "actors": 12,
+  "players": 6,
+  "spectators": 6,
+  "deform_bones_per_actor": 163,
+  "max_reach_error_m": 0.0,
+  "release": 1.94,
+  "swish": 3.16,
+  "source_model": "public/models/human-base.glb",
+  "animation_method": "Continuous world-contact IK baked to native deform-bone transforms; preserve-volume armature skinning; no sprite selection",
+  "appearance_status": "Motion-study placeholder; not yet adapted to approved Rukawa anime design"
+}
