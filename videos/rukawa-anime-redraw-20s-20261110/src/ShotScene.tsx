@@ -1,0 +1,3 @@
+import React from 'react';import {Video} from '@remotion/media';import {staticFile,useVideoConfig} from 'remotion';import {clipsReady} from './media-status';import {PendingFrame} from './PendingFrame';
+export const ShotScene=()=>{const {fps}=useVideoConfig();return clipsReady.shot?<Video src={staticFile('video/shot.mp4')} premountFor={fps} volume={.9} style={{width:'100%',height:'100%',objectFit:'cover'}}/>:<PendingFrame image="art/gather-scene.png"/>;};
+export const PilotScene=()=>{const {fps}=useVideoConfig();return clipsReady.pilot?<Video src={staticFile('video/pilot.mp4')} premountFor={fps} volume={0} style={{width:'100%',height:'100%',objectFit:'cover'}}/>:<PendingFrame image="art/gather-scene.png"/>;};

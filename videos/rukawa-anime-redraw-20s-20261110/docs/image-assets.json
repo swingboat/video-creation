@@ -1,0 +1,58 @@
+[
+  {
+    "asset": "public/art/gather-scene.png",
+    "sha256": "de7787e34eaeb2db54206177cb79f2f4b10e41d69c525cccc2d613a431e34970",
+    "generator": "built-in image_gen",
+    "tool_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-245b6fdf-de71-45ec-94d1-482ca5b5a441.png",
+    "runtime_uses_tool_original": false
+  },
+  {
+    "asset": "public/art/close-scene.png",
+    "sha256": "c220218e19d33931e6c7d155689b341636800da23941b06b32e1beb87de0a2e3",
+    "generator": "built-in image_gen",
+    "tool_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-caccc46f-6421-4d79-bfc1-637734d5b988.png",
+    "runtime_uses_tool_original": false
+  },
+  {
+    "asset": "public/art/rim-scene.png",
+    "sha256": "77148accf28f418d7198eec0dc3e9378bc566e6c91fb7994a552dc6e8c786402",
+    "generator": "built-in image_gen",
+    "tool_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-d0c0f155-0958-4e26-9117-472c42d53c00.png",
+    "runtime_uses_tool_original": false
+  },
+  {
+    "asset": "public/art/celebrate-scene-v1.png",
+    "sha256": "109d28cc6f3ede2e466b72c2701514275e9cb55bdf5380431bf5bd9225fcf428",
+    "generator": "built-in image_gen",
+    "tool_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-9a672378-cab5-4dc1-9aab-5dd790e1b0cf.png",
+    "runtime_uses_tool_original": false
+  },
+  {
+    "asset": "public/art/celebrate-scene.png",
+    "sha256": "71f5af63a9285450345078d2eb8e05479f72df0bbe341542cd1403391ed7f159",
+    "generator": "built-in image_gen",
+    "tool_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-ae3e8d2e-ead0-4850-9a2d-7bd7e9335ed6.png",
+    "runtime_uses_tool_original": false
+  },
+  {
+    "asset": "public/art/hero-scene.png",
+    "sha256": "1b3818560e73b72cb7232e336b4473a15134ad8079bb78705b9d15bd17a71807",
+    "generator": "built-in image_gen",
+    "tool_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-37819557-6ac4-4ad3-934d-969cb0daa09f.png",
+    "runtime_uses_tool_original": false
+  },
+  {
+    "asset": "public/art/rim-clean-plate.png",
+    "sha256": "4ba41ca2441d5df675c765cfc7dca3ea57452b19e618ba0f82a68642858064fa",
+    "generator": "built-in image_gen",
+    "tool_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-a6642aeb-0f81-4c05-a14c-af34164fb36a.png",
+    "runtime_uses_tool_original": false
+  },
+  {
+    "asset": "public/art/celebrate-grounded-v2.png",
+    "sha256": "5ada3b89683a7bfaad4fb6d21525d43dc75364b666c4f67435de99d56fa59861",
+    "generator": "built-in image_gen",
+    "tool_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-f5b7bd2e-a623-47ec-a55b-f51db5528b43.png",
+    "runtime_uses_tool_original": false
+  }
+]

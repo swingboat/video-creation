@@ -1,0 +1,2 @@
+import React from 'react';import {Video} from '@remotion/media';import {staticFile,useVideoConfig} from 'remotion';import {clipsReady} from './media-status';import {PendingFrame} from './PendingFrame';
+export const HeroScene=()=>{const {fps}=useVideoConfig();return clipsReady.hero?<Video src={staticFile('video/hero.mp4')} premountFor={fps} volume={.7} style={{width:'100%',height:'100%',objectFit:'cover'}}/>:<PendingFrame image="art/hero-scene.png"/>;};
