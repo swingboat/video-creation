@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "title": "Anime narrative scene",
+  "format": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "durationFrames": 720
+  },
+  "fontFile": null,
+  "background": null,
+  "sfx": [],
+  "shots": [
+    {
+      "id": "scene-01",
+      "frames": 90,
+      "action": "",
+      "art": null,
+      "clip": null,
+      "status": "pending",
+      "review": null,
+      "generation": null,
+      "caption": null,
+      "dialogue": null
+    },
+    {
+      "id": "scene-02",
+      "frames": 90,
+      "action": "",
+      "art": null,
+      "clip": null,
+      "status": "pending",
+      "review": null,
+      "generation": null,
+      "caption": null,
+      "dialogue": null
+    },
+    {
+      "id": "scene-03",
+      "frames": 90,
+      "action": "",
+      "art": null,
+      "clip": null,
+      "status": "pending",
+      "review": null,
+      "generation": null,
+      "caption": null,
+      "dialogue": null
+    },
+    {
+      "id": "scene-04",
+      "frames": 90,
+      "action": "",
+      "art": null,
+      "clip": null,
+      "status": "pending",
+      "review": null,
+      "generation": null,
+      "caption": null,
+      "dialogue": null
+    },
+    {
+      "id": "scene-05",
+      "frames": 90,
+      "action": "",
+      "art": null,
+      "clip": null,
+      "status": "pending",
+      "review": null,
+      "generation": null,
+      "caption": null,
+      "dialogue": null
+    },
+    {
+      "id": "scene-06",
+      "frames": 90,
+      "action": "",
+      "art": null,
+      "clip": null,
+      "status": "pending",
+      "review": null,
+      "generation": null,
+      "caption": null,
+      "dialogue": null
+    },
+    {
+      "id": "scene-07",
+      "frames": 90,
+      "action": "",
+      "art": null,
+      "clip": null,
+      "status": "pending",
+      "review": null,
+      "generation": null,
+      "caption": null,
+      "dialogue": null
+    },
+    {
+      "id": "scene-08",
+      "frames": 90,
+      "action": "",
+      "art": null,
+      "clip": null,
+      "status": "pending",
+      "review": null,
+      "generation": null,
+      "caption": null,
+      "dialogue": null
+    }
+  ]
+}
