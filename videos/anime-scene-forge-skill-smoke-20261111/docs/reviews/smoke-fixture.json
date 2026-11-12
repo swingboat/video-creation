@@ -1,0 +1,8 @@
+{
+  "clipSha256": "9801bc99600610739bbe3821e7916cd6a60e4ef59bb3d9701a593c79aafa2077",
+  "visualReviewed": true,
+  "normalSpeedReviewed": true,
+  "reviewer": "automated-test-fixture",
+  "observations": "Synthetic approval input used only to exercise technical gates; not a production or user review.",
+  "limitations": "No anime character, lip sync or artistic quality is certified."
+}

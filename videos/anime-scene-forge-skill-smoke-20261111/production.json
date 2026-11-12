@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "title": "Technical skill smoke fixture",
+  "format": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "durationFrames": 12
+  },
+  "fontFile": null,
+  "background": null,
+  "sfx": [],
+  "shots": [
+    {
+      "id": "scene-01",
+      "frames": 12,
+      "action": "",
+      "art": "art/smoke.png",
+      "clip": "video/scene-01-v1.mp4",
+      "status": "approved",
+      "review": "docs/reviews/smoke-fixture.json",
+      "generation": null,
+      "caption": {
+        "text": "Technical fixture",
+        "startFrame": 0,
+        "endFrame": 12
+      },
+      "dialogue": {
+        "text": "Synthetic test pulse, not speech",
+        "file": "audio/voices/smoke.wav",
+        "sync": "voiceover",
+        "fromFrame": 3,
+        "driverFile": "audio/drivers/scene-01-v1.wav",
+        "driverSha256": "2d378e758bef5d67dd18f727f26a8d2f2b04666dc7a44fbcba996a1029a1444e",
+        "voiceSha256": "c707eb834231346fb362c25f824f86e04f33752fc69f523784eb3db88332a939"
+      }
+    }
+  ]
+}

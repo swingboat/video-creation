@@ -1,0 +1,1 @@
+Technical dry-run fixture only; no character generation requested.

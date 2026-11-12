@@ -1,0 +1,11 @@
+{
+  "source": "public/candidates/smoke-source.mp4",
+  "sourceSha256": "3a29ce507f336fd7ecd26c471f017455ca9e5ce1cc48cbe8aea3effba9e7d769",
+  "startFrame": 2,
+  "frames": 12,
+  "fps": 24,
+  "speed": 1,
+  "crop": null,
+  "output": "public/video/scene-01-v1.mp4",
+  "outputSha256": "9801bc99600610739bbe3821e7916cd6a60e4ef59bb3d9701a593c79aafa2077"
+}
