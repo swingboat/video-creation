@@ -1,0 +1,72 @@
+[
+  {
+    "asset": "public/art/01-two-shot.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-108a37e0-1ff5-4b4e-a0ed-bb23b19eb83e.png",
+    "original_moved_into_project": true,
+    "sha256": "e423d77f079b31e3fd15da795de92a2e8d37b5c7149781c06cdf98904b26b02e"
+  },
+  {
+    "asset": "public/art/02-haruko.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-8abde853-554b-40c6-b3b5-51fea67faf1c.png",
+    "original_moved_into_project": true,
+    "sha256": "5fdc05637fcff098467d7f1615843f2f8c9be19711fe2e47c5a609db29a69e25"
+  },
+  {
+    "asset": "public/art/03-shy.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-6a1b5200-2e4c-495e-8c47-f37f74bbc875.png",
+    "original_moved_into_project": true,
+    "sha256": "b2da502b3e110553e7eeabd3f4bccd16eb7f20340ae5d6bae9d87f4ac6ebe07e"
+  },
+  {
+    "asset": "public/art/04-practice.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-7f2ffe15-aae1-4c62-abd9-cb17ee21bfd1.png",
+    "original_moved_into_project": true,
+    "sha256": "5c644d1341014c809fbed041b1fd70d75ea7aee62e1871e54f8d53f4e8849f7c"
+  },
+  {
+    "asset": "public/art/06-cheer.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-e6b2c709-1548-43b7-88ce-8356fd650a00.png",
+    "original_moved_into_project": true,
+    "sha256": "abe0f2ec89dde9441a317ddc9c5630f7c61f334b3980de10b9b5d38c5057718f"
+  },
+  {
+    "asset": "public/art/07-resolve.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-96d4e671-c472-4bf7-be7d-d272aa53c3c9.png",
+    "original_moved_into_project": true,
+    "sha256": "a78a942575405535503121607603808652587260ab84331702eb0e16d3bfd3a1"
+  },
+  {
+    "asset": "public/art/08-ending.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-7f6dec92-e839-497f-ae80-ff11a9fb8b0c.png",
+    "original_moved_into_project": true,
+    "sha256": "37d81a38179249d52ace9f6d569169afd6939ba0ecd94e9cf73c1ef905d1bbe5"
+  },
+  {
+    "asset": "public/art/05-gather.png",
+    "tool": "built-in image_gen",
+    "original_moved_into_project": true,
+    "tool_original_filename": "exec-958905b4-ddef-4406-a15a-9572101f6994.png",
+    "sha256": "2e1c326d96aef2b01af07b88bf00d8e6ace82db4c139265edee2096a9ab4b39d"
+  },
+  {
+    "asset": "public/art/04-stance-v2.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-e94d0b44-dccd-4e10-878e-cdf249eb0e8d.png",
+    "original_moved_into_project": true,
+    "sha256": "ecb8bb70167b08b96306b04a5148cf22520aaf9bfbf483b017a63548ea25c1f8"
+  },
+  {
+    "asset": "public/art/09-epilogue.png",
+    "tool": "built-in image_gen",
+    "tool_original": "/Users/huyin/.codex/generated_images/01a1c411-bacc-78e1-a1a3-775299c6975e/exec-ff68d14a-8af2-4889-941f-1edb54634431.png",
+    "original_moved_into_project": true,
+    "sha256": "b4c6c06f04abc8ab7f25d02c960acb59855a14c67f26381f312e4879ab46f7cd"
+  }
+]

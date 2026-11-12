@@ -1,0 +1,150 @@
+{
+  "gather": {
+    "source": "gather-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 60,
+    "review_status": "approved",
+    "note": "Reviewed full-frame overview, all 73 hand/ball frames and 1x browser playback. Select frames 0–59. Exclude unrequested shooting after about frame 63 and blur near the end. No frame extension.",
+    "playback_speed": 1,
+    "source_seconds_used": 2.5,
+    "source_sha256": "0c885d00a1b92f9b9ab0a8134f1e6b94214286d684936581698893b6503e9062",
+    "output_sha256": "379d4375973f1180e3344bc7fd3ea9c6c188252e0fda1237557df534c893c123",
+    "output": "public/video/gather.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "opening": {
+    "source": "opening-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Full-scene overview, all-frame hand/ball sheet and 1x browser playback reviewed. One held ball, stable hand grip and clear character separation. Haruko makes a small step in the later part; no overlap. Use native frames 0–95.",
+    "playback_speed": 1,
+    "source_seconds_used": 4.0,
+    "source_sha256": "00e5345a75842cb8e22cc058fb056d343fec4d023fb061bfed9d924a2539ff34",
+    "output_sha256": "fe1c3cb65279bd4ee8a91f3aefdcb9bc12eb099013451afe2224c510bb058de0",
+    "output": "public/video/opening.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "haruko": {
+    "source": "haruko-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Overview plus full-resolution frames 42,66,95 and 1x playback to end checked. Stable face, bangs and costume. Natural explanatory palm gesture differs from initial small-nod prompt but fits coaching dialogue. Use native frames 0–95.",
+    "playback_speed": 1,
+    "source_seconds_used": 4.0,
+    "source_sha256": "f5f907d930d245294c8d716a37623060a20b8c9f2e4b8b51349b0383b0aa1d6b",
+    "output_sha256": "2658a2130a741fbdf34670b033e62b5b8a32704d2e3456748cec83c2ac8d9064",
+    "output": "public/video/haruko.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "shy": {
+    "source": "shy-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 52,
+    "review_status": "approved",
+    "crop": [
+      640,
+      360,
+      80,
+      0
+    ],
+    "note": "Original right-edge extra teammate completely excluded by fixed upper-body framing. Select 0–51 only, before the smeared turn frames. A separately authored close-up follows. Repaired two-shot sequence reviewed at 1x.",
+    "playback_speed": 1,
+    "source_seconds_used": 2.1666666666666665,
+    "source_sha256": "abdff51b4b006caa10a6699e1834c3e863a986307ba129ca362d0c363537da60",
+    "output_sha256": "541e8bb3b589a58bbdf58c12c5726465944f6fc139b1bb0be60afa04331f6ccf",
+    "output": "public/video/shy.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "smile": {
+    "source": "shy-native24-v1.mp4",
+    "start_frame": 62,
+    "frames": 34,
+    "crop": [
+      576,
+      324,
+      140,
+      0
+    ],
+    "review_status": "approved",
+    "note": "Native source 62–95 after the smeared turn. Tighter face framing completely excludes extra right-edge person; complete hair and chin verified. Continuous source frames, no retiming.",
+    "playback_speed": 1,
+    "source_seconds_used": 1.4166666666666667,
+    "source_sha256": "abdff51b4b006caa10a6699e1834c3e863a986307ba129ca362d0c363537da60",
+    "output_sha256": "2f00b7bfea15c91c11307a267f74ccd84b65462f2022d74dade0b3a187a7dcd4",
+    "output": "public/video/smile.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "cheer": {
+    "source": "cheer-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 94,
+    "review_status": "approved",
+    "note": "Full overview, all 97 hand frames, enlarged first 36 contact frames and 1x playback reviewed. Four modest contacts around source frames 5,14,23,32, then hands settle and lower. Use 0–93, 94 native frames.",
+    "playback_speed": 1,
+    "source_seconds_used": 3.9166666666666665,
+    "source_sha256": "1012fa975f1881bac78ab21437c5dbf4039e42fee5735057ebf55c95955eaa08",
+    "output_sha256": "035fb21813151bd74b3f4d7a52d82eb69120251e4aaf8fb2a59a33040ac9d182",
+    "output": "public/video/cheer.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "resolve": {
+    "source": "resolve-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "crop": [
+      640,
+      360,
+      80,
+      0
+    ],
+    "note": "Raw candidate adds an unrequested teammate at right. Fixed 640x360 upper-body framing x80,y0 completely excludes that edge actor, while retaining fist gesture and full face. All-frame crop sheet and 1x 4s playback reviewed. Ball remains outside this reaction close-up.",
+    "playback_speed": 1,
+    "source_seconds_used": 4.0,
+    "source_sha256": "60d2ba26c65ef37bb572a07d1577c66f52493fce866d22aad91575d40b4dca7b",
+    "output_sha256": "0fb6a3e90284f7af7bd71249258f6eeddf62a48aeae897950c3258b6c7ca7410",
+    "output": "public/video/resolve.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "ending": {
+    "source": "ending-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 60,
+    "review_status": "approved",
+    "note": "Select only source 0–59, 2.5s, after overview, hand/ball frames and 1x playback. Two characters remain separate and a single held ball is stable. Later approach/contact/overlap is rejected. New epilogue close-up completes the 4s ending beat.",
+    "playback_speed": 1,
+    "source_seconds_used": 2.5,
+    "source_sha256": "582924c1bbaca6fd5b76dee64a308b3164d3604c0d11c3e131459ec28a0a11f7",
+    "output_sha256": "a7273eb578434117bc8f395be433112c4c2c8910e06f09216d72e00883df4003",
+    "output": "public/video/ending.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "practice": {
+    "source": "practice-native24-v2.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Rebuilt from new empty-hand stance keyframe. Overview, all knee/foot frames and 1x playback reviewed. Stable shoes, controlled knee bend and separate characters. Haruko makes a small coaching step but no crossing or contact. Use 0–95 at native speed.",
+    "playback_speed": 1,
+    "source_seconds_used": 4.0,
+    "source_sha256": "0e57a572d688bbe210d6ee1e261712e67a73f3b1196784ec86e069b5e53f3cad",
+    "output_sha256": "e758a2513f9c26821cabbbdee189716f6afde04150de4b994343b08b813c452c",
+    "output": "public/video/practice.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  },
+  "epilogue": {
+    "source": "epilogue-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 36,
+    "review_status": "approved",
+    "note": "New close portrait keyframe, clean solo expression with complete hair/chin. Overview and 1x native playback checked. Use 0–35, 1.5s at native speed.",
+    "playback_speed": 1,
+    "source_seconds_used": 1.5,
+    "source_sha256": "693d0b2b0e4c5766add1fe30bcccebc7615b2f6c0402368b6f90eebf91863cfc",
+    "output_sha256": "e9547e30b8be503133b9cd79db7c5e3d7b87e3f5b77b395a3770be5e579f46dd",
+    "output": "public/video/epilogue.mp4",
+    "audio": "Muted. Original synthesized score and synchronized effects are authored separately."
+  }
+}

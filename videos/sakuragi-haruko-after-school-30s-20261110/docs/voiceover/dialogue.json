@@ -1,0 +1,16 @@
+{
+ "language":"Chinese",
+ "direction":"Classic Mandarin anime-dub feel, designed character voices. Not original actor recordings or an exact original-cast clone.",
+ "characters":{
+  "sakuragi":{"seed":1110,"voice_description":"年轻男性，十八岁左右的热血少年音色，中低音区，声音厚实有胸腔共鸣，轻微沙哑和鼻腔共鸣，带一点调皮和笨拙的自信。说标准国语，带非常轻微的九十年代台湾动画国语配音语感，咬字清楚，有活力但不是播音腔，不是大叔音，不用气泡音。表演有经典热血篮球动画男主角的夸张起伏，面对喜欢的女生会有一点害羞。自然、爽朗、真诚的角色对白。"},
+  "haruko":{"seed":2210,"voice_description":"年轻女性，十七岁左右温柔明亮的少女音色，中高音区，清澈自然、温暖亲切，带笑意和真诚的鼓励。说标准国语，带非常轻微的九十年代台湾动画国语配音语感，咬字清楚，声音柔和但有精神，不是幼儿音，不嗲，不是客服播音腔，没有气声。像经典篮球动画里开朗善良的女同学在球馆边鼓励朋友。自然连贯的角色对白。"}
+ },
+ "lines":[
+  {"id":"opening","character":"haruko","text":"樱木同学，再试一次吧。","start_frame":14,"end_frame":91,"emotion":"温柔、明亮，轻松地鼓励对方再尝试一次，句尾的吧轻轻扬起。"},
+  {"id":"haruko","character":"haruko","text":"先站稳，别着急。","start_frame":109,"end_frame":184,"emotion":"耐心地给建议，亲切自然，不说教。"},
+  {"id":"shy","character":"sakuragi","text":"交给我吧，晴子小姐！","start_frame":205,"end_frame":273,"emotion":"前半句自信地应下，叫晴子小姐时带一点开心又不好意思的笑意，语气活泼。"},
+  {"id":"cheer","character":"haruko","text":"对，就是这样！","start_frame":444,"end_frame":512,"emotion":"看见朋友有进步，真心高兴地轻快赞许，有笑意但不尖叫。"},
+  {"id":"resolve","character":"sakuragi","text":"我可是天才嘛。","start_frame":544,"end_frame":617,"emotion":"故作得意、俏皮地自夸，胸有成竹，句尾嘛有少年的笑意。"},
+  {"id":"ending","character":"sakuragi","text":"好，再来一遍！","start_frame":631,"end_frame":680,"emotion":"恢复热血，爽朗而干脆，准备再练一次，不拖长音，不是大喊。"}
+ ]
+}

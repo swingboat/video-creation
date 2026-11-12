@@ -1,0 +1,3 @@
+import {Audio} from '@remotion/media';
+import {AbsoluteFill,Series,staticFile,useVideoConfig} from 'remotion';import {SceneVideo} from './SceneVideo';import {Caption} from './Caption';import {Smile} from './Smile';
+export const Shy=()=>{const {fps}=useVideoConfig();return <AbsoluteFill><Series><Series.Sequence name="挠头" durationInFrames={52} premountFor={fps}><SceneVideo scene="shy" art="03-shy.png"/></Series.Sequence><Series.Sequence name="害羞的笑" durationInFrames={34} premountFor={fps}><Smile/></Series.Sequence></Series><Caption start={.55} end={3.4}>交给我吧，晴子小姐！</Caption><Audio name="樱木：交给我吧" from={13} src={staticFile('audio/voices/shy.wav')} premountFor={fps}/></AbsoluteFill>};

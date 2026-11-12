@@ -1,0 +1,4 @@
+[
+ {"image":"public/lipsync/inputs/shy-v2-before-speech.png","frame":17,"strength":1.0,"binding":"guide"},
+ {"image":"public/lipsync/inputs/shy-v2-after-speech.png","frame":81,"strength":1.0,"binding":"guide"}
+]

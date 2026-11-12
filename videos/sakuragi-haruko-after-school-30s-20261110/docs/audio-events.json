@@ -1,0 +1,13 @@
+{
+  "dribbles": [],
+  "claps": [
+    18.541666666666668
+  ],
+  "clap_source_frames": [
+    11
+  ],
+  "clap_timeline_frames": [
+    445
+  ],
+  "notes": "Audio-driven cheer replacement has one gentle palm contact at source frame 11, followed by hands together and lowering. Reviewed all-frame hand sheet and enlarged frames 7–14. Replaced the earlier four clap sounds with one contact-aligned event. No dribble event."
+}

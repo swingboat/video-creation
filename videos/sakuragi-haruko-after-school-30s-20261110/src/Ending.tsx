@@ -1,0 +1,3 @@
+import {Audio} from '@remotion/media';
+import {AbsoluteFill,Series,staticFile,useVideoConfig} from 'remotion';import {SceneVideo} from './SceneVideo';import {Caption} from './Caption';import {Epilogue} from './Epilogue';
+export const Ending=()=>{const {fps}=useVideoConfig();return <AbsoluteFill><Series><Series.Sequence name="同框回应" durationInFrames={2.5*fps} premountFor={fps}><SceneVideo scene="ending" art="08-ending.png"/></Series.Sequence><Series.Sequence name="晴子的微笑" durationInFrames={1.5*fps} premountFor={fps}><Epilogue/></Series.Sequence></Series><Caption start={.3} end={2.35}>好，再来一遍！</Caption><Audio name="樱木：再来一遍" from={7} src={staticFile('audio/voices/ending.wav')} premountFor={fps}/></AbsoluteFill>};

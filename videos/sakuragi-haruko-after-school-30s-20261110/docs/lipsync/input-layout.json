@@ -1,0 +1,50 @@
+{
+  "opening": {
+    "frames": 97,
+    "fps": 24,
+    "audio_start_frame": 14,
+    "text": "樱木同学，再试一次吧。",
+    "source": "public/video/opening.mp4",
+    "voice": "public/audio/voices/opening.wav"
+  },
+  "haruko": {
+    "frames": 97,
+    "fps": 24,
+    "audio_start_frame": 13,
+    "text": "先站稳，别着急。",
+    "source": "public/video/haruko.mp4",
+    "voice": "public/audio/voices/haruko.wav"
+  },
+  "shy": {
+    "frames": 89,
+    "fps": 24,
+    "audio_start_frame": 13,
+    "text": "交给我吧，晴子小姐！",
+    "source": "public/video/shy.mp4",
+    "voice": "public/audio/voices/shy.wav"
+  },
+  "cheer": {
+    "frames": 97,
+    "fps": 24,
+    "audio_start_frame": 10,
+    "text": "对，就是这样！",
+    "source": "public/video/cheer.mp4",
+    "voice": "public/audio/voices/cheer.wav"
+  },
+  "ending": {
+    "frames": 65,
+    "fps": 24,
+    "audio_start_frame": 7,
+    "text": "好，再来一遍！",
+    "source": "public/video/ending.mp4",
+    "voice": "public/audio/voices/ending.wav"
+  },
+  "resolve": {
+    "frames": 97,
+    "fps": 24,
+    "audio_start_frame": 16,
+    "text": "我可是天才嘛。",
+    "source": "public/video/resolve.mp4",
+    "voice": "public/audio/voices/resolve.wav"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "dribbles": [],
+  "claps": [
+    18.291666666666668,
+    18.666666666666668,
+    19.041666666666668,
+    19.416666666666668
+  ],
+  "clap_source_frames": [
+    5,
+    14,
+    23,
+    32
+  ],
+  "clap_timeline_frames": [
+    439,
+    448,
+    457,
+    466
+  ],
+  "notes": "Four actual soft palm contacts were reviewed. No dribble sound: failed dribble scene was replaced by an empty-hand stance drill."
+}

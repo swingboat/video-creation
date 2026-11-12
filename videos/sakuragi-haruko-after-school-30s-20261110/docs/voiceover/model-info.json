@@ -1,0 +1,64 @@
+{
+  "repo": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "revision": "7d3824abff87e49756bb0f83fb5411de75d160c4",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 1519
+    },
+    {
+      "path": "README.md",
+      "bytes": 1068
+    },
+    {
+      "path": "config.json",
+      "bytes": 5232
+    },
+    {
+      "path": "generation_config.json",
+      "bytes": 245
+    },
+    {
+      "path": "merges.txt",
+      "bytes": 1671839
+    },
+    {
+      "path": "model.safetensors",
+      "bytes": 3833402589
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "bytes": 32458
+    },
+    {
+      "path": "preprocessor_config.json",
+      "bytes": 127
+    },
+    {
+      "path": "speech_tokenizer/config.json",
+      "bytes": 2336
+    },
+    {
+      "path": "speech_tokenizer/configuration.json",
+      "bytes": 76
+    },
+    {
+      "path": "speech_tokenizer/model.safetensors",
+      "bytes": 682293092
+    },
+    {
+      "path": "speech_tokenizer/preprocessor_config.json",
+      "bytes": 234
+    },
+    {
+      "path": "tokenizer_config.json",
+      "bytes": 7344
+    },
+    {
+      "path": "vocab.json",
+      "bytes": 2776833
+    }
+  ],
+  "local": ".cache/tts-models/qwen3-voicedesign-bf16",
+  "verified_file_sizes": true
+}

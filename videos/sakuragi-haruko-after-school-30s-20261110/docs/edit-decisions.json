@@ -1,0 +1,72 @@
+{
+  "opening": {
+    "source": "opening-a2v-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Audio-conditioned replacement. Haruko alone visibly speaks and returns to a closed smile around the end of her phrase; Sakuragi remains a quiet closed-mouth listener. Stable single held ball, hand grip, separated bodies and standing positions. All-frame face, listener and contact sheets plus browser 1x playback reviewed. Wide shot has limited mouth detail. Use native 0–95, no retiming."
+  },
+  "haruko": {
+    "source": "haruko-a2v-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Audio-conditioned replacement. Reviewed all-face-frame sheet, full-scene overview, full-resolution speaking frame 34 and browser 1x playback to end. Mouth closes during the inter-phrase pause, reopens for the second phrase and settles into a closed smile after speech. Small nod and stable clasped hands. Initial open smile changes before voice onset; not an exact phoneme-match claim. Native frames 0–95, no retiming."
+  },
+  "shy": {
+    "source": "shy-a2v-v2.mp4",
+    "start_frame": 0,
+    "frames": 52,
+    "review_status": "approved",
+    "note": "Audio-conditioned replacement with extra clean closed-mouth guide images at source frames 17 and 81. Main speaking motion now begins around frame 20, close to voice activity around frame 19; an earlier small toothy smile is an expression rather than the sustained premature open mouth of v1. Stable three-quarter-right face and eyes through the final smile, with naturally connected hand resting behind the neck. All-face and arm-contact frames and 1x playback reviewed. Use continuous native source 0–85, split at 52 only for existing component boundaries; no omitted interval or retiming. Approximate anime articulation, not a phoneme-level certification."
+  },
+  "smile": {
+    "source": "shy-a2v-v2.mp4",
+    "start_frame": 52,
+    "frames": 34,
+    "review_status": "approved",
+    "note": "Audio-conditioned replacement with extra clean closed-mouth guide images at source frames 17 and 81. Main speaking motion now begins around frame 20, close to voice activity around frame 19; an earlier small toothy smile is an expression rather than the sustained premature open mouth of v1. Stable three-quarter-right face and eyes through the final smile, with naturally connected hand resting behind the neck. All-face and arm-contact frames and 1x playback reviewed. Use continuous native source 0–85, split at 52 only for existing component boundaries; no omitted interval or retiming. Approximate anime articulation, not a phoneme-level certification."
+  },
+  "practice": {
+    "source": "practice-native24-v2.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Rebuilt from new empty-hand stance keyframe. Overview, all knee/foot frames and 1x playback reviewed. Stable shoes, controlled knee bend and separate characters. Haruko makes a small coaching step but no crossing or contact. Use 0–95 at native speed."
+  },
+  "gather": {
+    "source": "gather-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 60,
+    "review_status": "approved",
+    "note": "Reviewed full-frame overview, all 73 hand/ball frames and 1x browser playback. Select frames 0–59. Exclude unrequested shooting after about frame 63 and blur near the end. No frame extension."
+  },
+  "cheer": {
+    "source": "cheer-a2v-v1.mp4",
+    "start_frame": 0,
+    "frames": 94,
+    "review_status": "approved",
+    "note": "Audio-conditioned replacement. Warm visible speaking followed by closed smile. Hands make one gentle palm contact at source frame 11, remain together, then lower. No repeated claps; update score to one event at global frame 445. Stable face and connected wrists, with some fine finger-line softness while hands settle. All-frame face/contact sheets, full-resolution speech frame and 1x playback reviewed. Native 0–93, no retiming."
+  },
+  "resolve": {
+    "source": "resolve-a2v-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Audio-conditioned replacement. Reviewed full-scene overview, all 97 face frames with source-waveform energy, and 4s browser playback at 1x to end. Stable face, solo identity and fist; visible speaking, round-lip and closed-mouth changes followed by a closed smile. Broad speech timing improved; not a phoneme-level or original-animation match. Use native 0–95 without crop or retiming."
+  },
+  "ending": {
+    "source": "ending-a2v-v1.mp4",
+    "start_frame": 0,
+    "frames": 60,
+    "review_status": "approved",
+    "note": "Audio-conditioned replacement. Sakuragi visibly delivers the line and closes his mouth after the response; Haruko listens quietly with closed mouth. Ball remains singly held at left hip, right fist stays near chest, separate bodies and stable feet. All-frame speaker, listener and contact sheets plus browser 1x playback reviewed. Wide-shot facial lines remain low detail. Native 0–59, no retiming."
+  },
+  "epilogue": {
+    "source": "epilogue-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 36,
+    "review_status": "approved",
+    "note": "New close portrait keyframe, clean solo expression with complete hair/chin. Overview and 1x native playback checked. Use 0–35, 1.5s at native speed."
+  }
+}

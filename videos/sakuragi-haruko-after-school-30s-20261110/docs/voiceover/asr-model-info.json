@@ -1,0 +1,52 @@
+{
+  "repo": "mlx-community/Qwen3-ASR-0.6B-4bit",
+  "revision": "313d850181767edf09f00a9c289becca70e58cd0",
+  "local": ".cache/tts-models/qwen3-asr-4bit",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 1519
+    },
+    {
+      "path": "README.md",
+      "bytes": 1008
+    },
+    {
+      "path": "chat_template.json",
+      "bytes": 1161
+    },
+    {
+      "path": "config.json",
+      "bytes": 7187
+    },
+    {
+      "path": "generation_config.json",
+      "bytes": 142
+    },
+    {
+      "path": "merges.txt",
+      "bytes": 1671853
+    },
+    {
+      "path": "model.safetensors",
+      "bytes": 708236945
+    },
+    {
+      "path": "model.safetensors.index.json",
+      "bytes": 71814
+    },
+    {
+      "path": "preprocessor_config.json",
+      "bytes": 330
+    },
+    {
+      "path": "tokenizer_config.json",
+      "bytes": 12487
+    },
+    {
+      "path": "vocab.json",
+      "bytes": 2776833
+    }
+  ],
+  "verified_file_sizes": true
+}

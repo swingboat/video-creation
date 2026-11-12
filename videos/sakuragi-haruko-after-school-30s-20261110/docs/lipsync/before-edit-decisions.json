@@ -1,0 +1,90 @@
+{
+  "opening": {
+    "source": "opening-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Full-scene overview, all-frame hand/ball sheet and 1x browser playback reviewed. One held ball, stable hand grip and clear character separation. Haruko makes a small step in the later part; no overlap. Use native frames 0–95."
+  },
+  "haruko": {
+    "source": "haruko-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Overview plus full-resolution frames 42,66,95 and 1x playback to end checked. Stable face, bangs and costume. Natural explanatory palm gesture differs from initial small-nod prompt but fits coaching dialogue. Use native frames 0–95."
+  },
+  "shy": {
+    "source": "shy-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 52,
+    "review_status": "approved",
+    "crop": [
+      640,
+      360,
+      80,
+      0
+    ],
+    "note": "Original right-edge extra teammate completely excluded by fixed upper-body framing. Select 0–51 only, before the smeared turn frames. A separately authored close-up follows. Repaired two-shot sequence reviewed at 1x."
+  },
+  "smile": {
+    "source": "shy-native24-v1.mp4",
+    "start_frame": 62,
+    "frames": 34,
+    "crop": [
+      576,
+      324,
+      140,
+      0
+    ],
+    "review_status": "approved",
+    "note": "Native source 62–95 after the smeared turn. Tighter face framing completely excludes extra right-edge person; complete hair and chin verified. Continuous source frames, no retiming."
+  },
+  "practice": {
+    "source": "practice-native24-v2.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "note": "Rebuilt from new empty-hand stance keyframe. Overview, all knee/foot frames and 1x playback reviewed. Stable shoes, controlled knee bend and separate characters. Haruko makes a small coaching step but no crossing or contact. Use 0–95 at native speed."
+  },
+  "gather": {
+    "source": "gather-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 60,
+    "review_status": "approved",
+    "note": "Reviewed full-frame overview, all 73 hand/ball frames and 1x browser playback. Select frames 0–59. Exclude unrequested shooting after about frame 63 and blur near the end. No frame extension."
+  },
+  "cheer": {
+    "source": "cheer-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 94,
+    "review_status": "approved",
+    "note": "Full overview, all 97 hand frames, enlarged first 36 contact frames and 1x playback reviewed. Four modest contacts around source frames 5,14,23,32, then hands settle and lower. Use 0–93, 94 native frames."
+  },
+  "resolve": {
+    "source": "resolve-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 96,
+    "review_status": "approved",
+    "crop": [
+      640,
+      360,
+      80,
+      0
+    ],
+    "note": "Raw candidate adds an unrequested teammate at right. Fixed 640x360 upper-body framing x80,y0 completely excludes that edge actor, while retaining fist gesture and full face. All-frame crop sheet and 1x 4s playback reviewed. Ball remains outside this reaction close-up."
+  },
+  "ending": {
+    "source": "ending-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 60,
+    "review_status": "approved",
+    "note": "Select only source 0–59, 2.5s, after overview, hand/ball frames and 1x playback. Two characters remain separate and a single held ball is stable. Later approach/contact/overlap is rejected. New epilogue close-up completes the 4s ending beat."
+  },
+  "epilogue": {
+    "source": "epilogue-native24-v1.mp4",
+    "start_frame": 0,
+    "frames": 36,
+    "review_status": "approved",
+    "note": "New close portrait keyframe, clean solo expression with complete hair/chin. Overview and 1x native playback checked. Use 0–35, 1.5s at native speed."
+  }
+}
