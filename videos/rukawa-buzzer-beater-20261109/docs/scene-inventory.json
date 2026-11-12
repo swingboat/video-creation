@@ -1,0 +1,18 @@
+{
+  "objects": 2286,
+  "meshes": 1463,
+  "materials": 27,
+  "frames": 480,
+  "release": 9,
+  "swish": 13.6,
+  "three_point_distance": 7.674398999270236,
+  "release_point": [
+    -1.2,
+    4.42,
+    2.7981829276029995
+  ],
+  "external_assets": [
+    "//fonts/Arial-Bold.ttf",
+    "<builtin>"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "asset": "public/prototypes/rukawa-anime-prototype-v1.png",
+  "mode": "built-in image_gen",
+  "purpose": "Appearance prototype only; not an existing rigged 3D model or a Blender render.",
+  "views": [
+    "standing full body",
+    "face close-up",
+    "jump shot"
+  ],
+  "originalToolOutput": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-7bf7a3f6-ee0f-4b92-8a8b-a2e75d7a6a14.png",
+  "storage": "Moved into this video's directory per project instructions; original generated file removed by move."
+}
