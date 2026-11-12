@@ -1,0 +1,25 @@
+import React from 'react';
+import {AbsoluteFill, CanvasImage, interpolate, staticFile, useCurrentFrame} from 'remotion';
+import {Basketball} from './Basketball';
+const S=510;const left=48;const top=153;
+const keyFrames=[0,12,18,22,26,30,34,39,44];
+export const poseAt=(f:number)=>{let i=0;while(i<8&&f>=keyFrames[i+1])i++;return i;};
+const handX=[268,249,241,249,263,270];const handY=[142,191,69,10,0,10];
+export const CourtShot=()=>{
+ const f=useCurrentFrame();const pose=poseAt(f);
+ const jump=interpolate(f,[0,18,22,26,32,38,44,66],[0,0,-19,-44,-49,-23,0,0],{extrapolateRight:'clamp'});
+ const bx=left+handX[Math.min(pose,5)]*S/418;
+ const by=top+handY[Math.min(pose,5)]*S/418+jump;
+ const u=Math.max(0,(f-30)/65);
+ const releaseX=left+270*S/418;const releaseY=top+10*S/418-22-49;
+ const x=f<30?bx:releaseX+(1055-releaseX)*u;
+ const y=f<30?by:releaseY+(130-releaseY)*u-300*u*(1-u);
+ return <AbsoluteFill style={{background:'#cbb494',overflow:'hidden'}}>
+  <CanvasImage src={staticFile('art/court-players-crowd.png')} style={{width:'100%',height:'100%'}}/>
+  <svg width="1280" height="720" style={{position:'absolute',inset:0}}><ellipse cx="313" cy="655" rx={59+jump*.15} ry="9" fill="#3d3029" opacity={.22+jump*.0015}/></svg>
+  <div style={{position:'absolute',left,top:top+jump,width:S,height:S,overflow:'hidden'}}>
+   <CanvasImage src={staticFile('art/rukawa-poses-v2.png')} style={{position:'absolute',width:S*3,height:S*3,left:-(pose%3)*S,top:-Math.floor(pose/3)*S}}/>
+  </div>
+  <Basketball x={x} y={y} r={f<30?23:23-u*7} angle={f<30?0:(f-30)*13}/>
+ </AbsoluteFill>;
+};

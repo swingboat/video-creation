@@ -1,0 +1,34 @@
+import React from 'react';
+import {AbsoluteFill, CanvasImage, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {Basketball} from './Basketball';
+import {Crowd} from './Crowd';
+const cx=732,cy=302,rx=187,ry=48;
+export const HoopShot=()=>{
+ const f=useCurrentFrame();const {fps}=useVideoConfig();const t=f/fps+2.2;
+ const tau=Math.max(0,t-3.35);const pulse=tau>0?Math.exp(-tau*2.8)*Math.sin(tau*11):0;
+ const net=(front:boolean)=>Array.from({length:12},(_,j)=>{
+  const a=j*Math.PI*2/12;const points=Array.from({length:8},(_,k)=>{
+   const u=k/7;const radius=rx*(1-u*.42);const aa=a+(j%2===0?1:-1)*u*.95;
+   return `${cx+radius*Math.cos(aa)+pulse*22*u},${cy+ry*Math.sin(aa)*(1-u)+u*(191+pulse*28)}`;
+  }).join(' ');
+  if((Math.sin(a)>=0)!==front)return null;
+  return <g key={j}><polyline points={points} fill="none" stroke="#332c29" strokeWidth="5.3" strokeLinejoin="round"/><polyline points={points} fill="none" stroke="#f8f0d9" strokeWidth="3.3" strokeLinejoin="round"/></g>;
+ });
+ const u=Math.max(0,Math.min(1,(t-2.2)/1.15));
+ const x=t<=3.35?500+(cx-500)*u:cx+tau*40;
+ const y=t<=3.35?-160+(cy+160)*u*u:cy+tau*510+tau*tau*190;
+ return <AbsoluteFill style={{background:'#74909d',overflow:'hidden'}}>
+  <CanvasImage src={staticFile('art/hoop-crowd.png')} style={{width:'100%',height:'100%'}}/>
+  <Crowd view="hoop"/>
+  <svg width="1280" height="720" style={{position:'absolute',inset:0}}>{net(false)}</svg>
+  <Basketball x={x} y={y} r={65} angle={f*12}/>
+  <svg width="1280" height="720" style={{position:'absolute',inset:0}}>
+   <defs><clipPath id="rim-front"><path d="M541 301 C548 370 913 381 922 298 L911 298 C901 354 562 355 551 300 Z"/></clipPath></defs>
+   <image href={staticFile('art/hoop-crowd.png')} width="1280" height="720" clipPath="url(#rim-front)"/>
+   {net(true)}
+   {Array.from({length:4},(_,i)=>{
+    const u=(i+1)/4;return <ellipse key={i} cx={cx+pulse*22*u} cy={cy+u*(191+pulse*28)} rx={rx*(1-u*.42)} ry={ry*(1-u)*.65+3} fill="none" stroke="#eae3d2" strokeWidth="2"/>;
+   })}
+  </svg>
+ </AbsoluteFill>;
+};

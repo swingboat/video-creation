@@ -1,0 +1,72 @@
+{
+  "purpose": "Continuous-action validation before rebuilding the full 20-second video",
+  "duration_seconds": 5,
+  "input_frame": "public/motion-reference/court-start.png",
+  "character_reference": "public/references/rukawa-approved.png",
+  "camera": "locked wide shot; no camera motion used to imply character motion",
+  "beats": [
+    {
+      "time": [
+        0,
+        1.2
+      ],
+      "shooter": "bend knees and lower center of gravity; hands and ball move together; feet planted",
+      "defender": "two small closing steps",
+      "others": "maintain box-out spacing and track shooter"
+    },
+    {
+      "time": [
+        1.2,
+        2.1
+      ],
+      "shooter": "extend legs, lift ball, jump and release",
+      "defender": "react slightly late and jump to contest",
+      "others": "look up and adjust position without premature synchronized jumps"
+    },
+    {
+      "time": [
+        2.1,
+        3.2
+      ],
+      "shooter": "hold follow-through; descend and land with bent knees",
+      "defender": "descend and land without foot sliding",
+      "others": "track the same ball and maintain physical spacing"
+    },
+    {
+      "time": [
+        3.2,
+        5
+      ],
+      "shooter": "settle naturally after landing",
+      "defender": "recover balance and turn gaze toward basket",
+      "others": "small individual reactions; asynchronous spectator gestures"
+    }
+  ],
+  "acceptance_criteria": [
+    {
+      "item": "continuous intermediate motion",
+      "review": "normal speed and quarter speed; no abrupt body-pose or silhouette replacements"
+    },
+    {
+      "item": "contact",
+      "review": "hands remain on the ball until release; planted shoes do not slide"
+    },
+    {
+      "item": "anatomy and identity",
+      "review": "stable head, jersey, limb length and number of limbs; no body-scale popping"
+    },
+    {
+      "item": "causality",
+      "review": "defender reacts to the shooter; all players track one continuous ball"
+    },
+    {
+      "item": "background stability",
+      "review": "court lines, rim, roof and walls remain fixed"
+    },
+    {
+      "item": "delivery integrity",
+      "review": "correct frame count, duration and decoding only after visual movement is accepted"
+    }
+  ],
+  "external_generation_not_started": true
+}

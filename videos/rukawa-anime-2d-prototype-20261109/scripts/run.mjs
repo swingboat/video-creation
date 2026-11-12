@@ -1,0 +1,11 @@
+import {spawnSync} from 'node:child_process';
+import {mkdirSync} from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.dirname(path.dirname(fileURLToPath(import.meta.url)));process.chdir(root);
+for(const p of ['.cache/tmp','.cache/npm','.cache/python','outputs/checks'])mkdirSync(p,{recursive:true});
+const env={...process.env,TMPDIR:path.join(root,'.cache/tmp'),TMP:path.join(root,'.cache/tmp'),TEMP:path.join(root,'.cache/tmp'),npm_config_cache:path.join(root,'.cache/npm'),PIP_CACHE_DIR:path.join(root,'.cache/python'),XDG_CACHE_HOME:path.join(root,'.cache'),PYTHONDONTWRITEBYTECODE:'1'};
+const rem=path.join(root,'node_modules/.bin/remotion');
+const commands={dev:[rem,['studio','src/index.ts','--port=3091']],render:[rem,['render','src/index.ts','RukawaAnimeSample','outputs/rukawa-anime-sample-v2-5s.mp4','--codec=h264','--crf=16','--concurrency=2']],still:[rem,['still','src/index.ts','RukawaAnimeSample','outputs/checks/sample.png','--frame=35']],audio:['python3',['scripts/audio.py']],check:['python3',['scripts/check.py']],bundle:[rem,['bundle','src/index.ts','outputs/remotion-bundle']],package:['python3',['scripts/package.py']]};
+const action=process.argv[2];if(!commands[action])throw Error('Unknown action '+action);
+const [exe,args]=commands[action];const p=spawnSync(exe,[...args,...process.argv.slice(3)],{cwd:root,env,stdio:'inherit'});if(p.error)throw p.error;process.exit(p.status??1);

@@ -1,0 +1,44 @@
+{
+  "version": "v2",
+  "motion_continuity_accepted": false,
+  "reason": "Three discrete drawings per supporting player are selected by frame thresholds; the viewer sees pose replacements, while root interpolation only moves the drawing as a whole.",
+  "support_pose_count": 3,
+  "rukawa_pose_count": 9,
+  "crowd_gesture_states": 2,
+  "technical_checks_scope": [
+    "media metadata",
+    "decode integrity",
+    "nonzero pixel change in selected regions",
+    "local dependency paths"
+  ],
+  "technical_checks_do_not_establish": [
+    "anatomically coherent in-between motion",
+    "planted foot contact",
+    "stable character scale and joints between drawings",
+    "causally coordinated interactions"
+  ],
+  "source_files": [
+    "src/SupportingPlayers.tsx",
+    "src/CourtShot.tsx",
+    "src/Crowd.tsx"
+  ],
+  "required_rebuild": "Use consistently deforming rigged characters or a temporally coherent video/animation pipeline. Keep previous renders as rejected prototypes, not accepted continuous animation.",
+  "available_video_connectors_checked": [
+    {
+      "provider": "Runway",
+      "status": "DISABLED_BY_ADMIN",
+      "installation_policy": "NOT_AVAILABLE"
+    },
+    {
+      "provider": "fal",
+      "status": "DISABLED_BY_ADMIN",
+      "installation_policy": "NOT_AVAILABLE"
+    },
+    {
+      "provider": "Higgsfield",
+      "status": "DISABLED_BY_ADMIN",
+      "installation_policy": "NOT_AVAILABLE"
+    }
+  ],
+  "new_continuous_video_generated": false
+}

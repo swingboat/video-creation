@@ -1,0 +1,42 @@
+{
+  "generator": "built-in image_gen",
+  "reference": "public/references/rukawa-approved.png",
+  "art": [
+    {
+      "file": "public/art/court-players-crowd.png",
+      "prompt": "docs/prompts/court.txt"
+    },
+    {
+      "file": "public/art/rukawa-poses-v1.png",
+      "prompt": "docs/prompts/poses.txt"
+    },
+    {
+      "file": "public/art/rukawa-poses-v2.png",
+      "prompt": "docs/prompts/poses-edge-cleanup.txt"
+    },
+    {
+      "file": "public/art/hoop-crowd.png",
+      "prompt": "docs/prompts/hoop.txt"
+    }
+  ],
+  "storage": "All four newly generated PNGs were moved from the tool's default generated_images directory into this video directory. The reference and font are independent local copies, with no cross-video runtime dependency.",
+  "v2_art": [
+    {
+      "file": "public/art/court-clean-v2.png",
+      "prompt": "docs/prompts/v2/clean.txt"
+    },
+    {
+      "file": "public/art/support-players-v2.png",
+      "prompt": "docs/prompts/v2/players.txt"
+    },
+    {
+      "file": "public/art/court-cheer-v2.png",
+      "prompt": "docs/prompts/v2/courtCheer.txt"
+    },
+    {
+      "file": "public/art/hoop-cheer-v2.png",
+      "prompt": "docs/prompts/v2/hoopCheer.txt"
+    }
+  ],
+  "v2_storage": "All four v2 generated files were moved into this project immediately after generation."
+}

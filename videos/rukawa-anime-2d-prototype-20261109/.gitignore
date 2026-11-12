@@ -1,0 +1,4 @@
+node_modules/
+.cache/
+outputs/
+__pycache__/

@@ -1,0 +1,13 @@
+Use case: illustration-story. Asset: a clean transparent 3 by 3 animation key-pose sprite sheet, ONE SQUARE IMAGE, exactly nine equal square cells arranged in a precise 3-column x 3-row grid; no borders, no lettering, no cell labels. Each cell must contain one complete full-body depiction of the SAME Kaede Rukawa character, matching the supplied reference face, soft black bangs, red SHOHOKU number 11 jersey, matching shorts, black forearm band and white-black-red high-top shoes EXACTLY. Natural tall slender athletic anatomy, consistent scale and head size across all nine cells, consistent front-left three-quarter side view facing toward SCREEN RIGHT. Head and both shoes fully within each cell, generous transparent margins, feet near the bottom baseline, identical camera and proportions. Draw hands and all fingers clearly.
+This is a sequential basketball jump-shot animation. Read cells left to right then top to bottom:
+1. relaxed shot-ready stance, knees slightly bent, both empty hands cupping an imaginary ball in front of lower chest;
+2. deeper knee bend and weight-loading, hands slightly lower in front of stomach;
+3. legs beginning to straighten, both hands raise the imaginary ball toward forehead;
+4. takeoff, heels and both feet just off floor, imaginary ball above the forehead, right elbow underneath it;
+5. airborne peak, right shooting arm extending up and forward, left guiding palm beside imaginary ball;
+6. release, fully extended right arm, wrist flexed naturally downward in classic follow-through, left guide hand separated and relaxed;
+7. descent, right arm still high in follow-through, knees relaxed;
+8. landing with both feet down, knees absorb impact, arms begin to lower;
+9. composed upright finish, arms relax toward waist, calm confident expression.
+IMPORTANT: Do NOT draw a basketball in ANY cell, because one separate continuous ball layer will be composited to the hands. No orange circles, no props. No ground shadows or scenery, the actual background must be transparent alpha.
+Medium: high quality traditional 2D cel anime drawings with clean thin black contour lines and flat red/skin colors with 2-3 shadow tones. This is not a wooden toy, not a 3D model, not a chibi. Preserve the natural human joints and gravity-following black hair. No duplicate or missing cells, no body part crossing into adjacent cells, no additional characters.
