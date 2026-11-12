@@ -1,0 +1,1 @@
+Built-in image_gen; approved Rukawa sheet used as design reference. Six-cell transparent puppet atlas: torso/head/shorts, two continuous arms, two continuous legs, basketball. Intended for continuous local 2D mesh skinning, not pose switching.

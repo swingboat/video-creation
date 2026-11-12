@@ -1,0 +1,25 @@
+import json,subprocess,re,hashlib
+from pathlib import Path
+R=Path(__file__).resolve().parents[1]
+def run(a):return subprocess.run(a,cwd=R,check=True,capture_output=True,text=True).stdout
+run(['node_modules/.bin/tsc','--noEmit'])
+run(['node','--experimental-strip-types','scripts/audit.mjs'])
+issues=[]
+for folder in ['src','scripts']:
+ for p in (R/folder).rglob('*'):
+  if not p.is_file() or p.name=='check.py':continue
+  s=p.read_text()
+  for t in ['/Users/','rukawa-anime-2d-prototype','rukawa-continuous-rig','/videos/']:
+   if t in s:issues.append([str(p.relative_to(R)),t])
+  for ref in re.findall(r'(?:from\s*|import\s*\()[\'\"]([^\'\"]+)',s):
+   if ref.startswith('.') and not (p.parent/ref).resolve().is_relative_to(R):issues.append([str(p.relative_to(R)),ref])
+for d in ['src','scripts','public']:
+ for p in (R/d).rglob('*'):
+  if p.is_symlink():issues.append([str(p.relative_to(R)),'symlink'])
+assert not issues,issues
+v=R/'outputs/rukawa-2d-mesh-test-3s.mp4';m=json.loads(run(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(v)]));s=next(x for x in m['streams'] if x['codec_type']=='video')
+assert (s['width'],s['height'],s['r_frame_rate'],int(s['nb_frames']))==(1280,720,'30/1',90)
+assert abs(float(m['format']['duration'])-3)<.01
+run(['ffmpeg','-v','error','-i',str(v),'-f','null','-'])
+r={'typecheck':'pass','own_runtime_paths':'pass','video_decode':'pass','frames':90,'fps':30,'duration':3,'rig':json.loads((R/'outputs/checks/rig-audit.json').read_text()),'sha256':hashlib.sha256(v.read_bytes()).hexdigest(),'visual_scope':'Single-character 2D deformation prototype; not a completed 20-second game scene.'}
+(R/'outputs/checks/project-check.json').write_text(json.dumps(r,indent=2));print(json.dumps(r,indent=2))
