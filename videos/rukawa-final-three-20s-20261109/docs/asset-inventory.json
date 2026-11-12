@@ -1,0 +1,88 @@
+{
+  "court.png": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  "rukawa-release.png": {
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_bounds": [
+      224,
+      14,
+      737,
+      1490
+    ]
+  },
+  "ball-atlas.png": {
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_bounds": [
+      172,
+      15,
+      1356,
+      1010
+    ]
+  },
+  "defender-jump.png": {
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_bounds": [
+      68,
+      13,
+      977,
+      1485
+    ]
+  },
+  "arena-cheer.png": {
+    "size": [
+      1671,
+      941
+    ],
+    "mode": "RGB"
+  },
+  "hoop-court-reference.png": {
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  "support-players.png": {
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_bounds": [
+      72,
+      1,
+      950,
+      1528
+    ]
+  },
+  "rukawa-gather.png": {
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_bounds": [
+      198,
+      15,
+      765,
+      1529
+    ]
+  }
+}

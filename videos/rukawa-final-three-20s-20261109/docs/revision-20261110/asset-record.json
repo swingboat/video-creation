@@ -1,0 +1,9 @@
+{
+  "asset": "public/art/revision-20261110/coherent-contested-shot-v1.png",
+  "sha256": "58c7c58cf306090298954de9d3ea2cdbe06708ed28409587d1e5ef488f1263e3",
+  "generator": "built-in image_gen",
+  "role": "Integrated scene style / perspective test only; not an animation or replacement final video",
+  "prompt": "docs/revision-20261110/coherent-scene-prompt.txt",
+  "provider_original_retained": "/Users/huyin/.codex/generated_images/01a1bf2e-120f-7a71-87d1-7345a8c053af/exec-bdc90252-ac25-4c3e-a7b9-9d234786ee6c.png",
+  "runtime_uses_provider_original": false
+}
